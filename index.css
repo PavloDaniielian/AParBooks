@@ -1,0 +1,701 @@
+@import "css/mfn-icons.css";
+@import "css/pretty.css";
+
+#finance4 *::selection, #wallet2 *::selection, #agency4 *::selection, #wallet2 *::selection, #internet2 *::selection, #agency7 *::selection,#accountant4 *::selection, #consultant2 *::selection, #plumber *::selection  {
+  background-color: rgb(3, 155, 229) !important; /* 自定义选中的背景颜色 */
+  color: #fff !important;
+}
+
+.email-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 10001;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.email-popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  transform: scale(0.6);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.email-popup.active {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.email-popup.active .email-popup-content {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.email-popup h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #357abd;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.close-popup:hover {
+  color: #333;
+}
+
+/* 成功消息样式 */
+.success {
+  padding: 20px;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  margin-top: 15px;
+}
+
+.success h4 {
+  margin-top: 0;
+  color: #3c763d;
+}
+
+/* 关闭动画的样式 */
+.email-popup.closing {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.email-popup.closing .email-popup-content {
+  transform: scale(0.6);
+  opacity: 0;
+}
+
+/* 下拉菜单样式 */
+.menu-main li {
+  position: relative;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  z-index: 100;
+  padding: 10px 0;
+}
+
+.menu-item-has-children:hover > .sub-menu {
+  display: block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+#finance4 #Top_bar.is-fixed #menu{
+  background: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#finance4 #Top_bar.is-fixed #menu ul li.submenu .menu-toggle{
+  color: #252525;
+}
+
+#finance4 #menu{
+  cursor: pointer;
+}
+
+.sub-menu li {
+  display: block;
+  width: 190px;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+  .sub-menu li {
+    width: 100%;
+  }
+}
+
+.sub-menu li a {
+  padding: 10px 20px;
+  color: #333;
+  display: block;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 0 !important;
+}
+
+.sub-menu li a:hover {
+  background-color: #f5f5f5;
+  color: #5fd58c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 添加下拉箭头指示器 */
+.menu-item-has-children > a:after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* 确保下拉菜单在滚动时仍然可见 */
+#Top_bar.is-sticky .menu-main .sub-menu {
+  top: 100%;
+}
+
+/* 添加5等分列的样式 */
+.col-md-20 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* 确保在小屏幕上堆叠显示 */
+@media (max-width: 767px) {
+  .col-md-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.animation-column {
+  padding: 100px 0;
+}
+
+/* 添加固定导航栏的样式 */
+#Top_bar.slide-in {
+  position: fixed;
+  top: -100px; /* 初始位置在视图外 */
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  animation: slideDown 0.3s ease forwards;
+}
+
+/* 滑入动画 */
+@keyframes slideDown {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* 固定导航栏样式 */
+#Top_bar {
+  transition: transform 0.3s ease-in-out;
+}
+
+#Top_bar.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+#finance4 #Top_bar.is-fixed{
+  background: #fff !important;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+}
+
+#finance4 #Top_bar.is-fixed .menu-main li a{
+  color: #252525 !important;
+}
+
+.light-btn-style{
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+  background-color: transparent !important;
+  cursor: pointer;
+  font-weight: 500 !important;
+  background-image: url(../images/box_shadow_button.png);
+  transition: all 0.3s ease;
+  background-size: 0 100% !important;
+  background-repeat: repeat-x;
+}
+
+.light-btn-style:hover{
+  background-size: 100% 100%;
+}
+
+
+.is-fixed .light-btn-style.schedule-a-demo{
+  border: 0;
+  background: #EF5928 !important;
+}
+
+.is-fixed .light-btn-style.login{
+  border: 0;
+  background: #039BE5 !important;
+}
+
+#finance4 #Top_bar.is-fixed .responsive-menu-toggle{
+  color: #252525 !important;
+}
+
+.logo-img-wrap{
+  width: 200px;
+  height: 22px;
+  background-image: url(./logos/logo-light-036ppi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#finance4 #Top_bar.is-fixed .logo-img-wrap{
+  background-image: url(./logos/logo-dark-40.png);
+}
+
+.dark-btn-style{
+  border: 2px solid #252525 !important;
+  color: #252525 !important;
+  border-radius: 6px !important;
+  background-color: transparent !important;
+  cursor: pointer;
+  font-weight: 500 !important;
+}
+
+/* 为子菜单添加三角形指示器 */
+.menu-main .sub-menu {
+  position: relative;
+}
+
+/* 外层三角形(作为border) */
+.menu-main .sub-menu:before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: -9px;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid transparent; /* border颜色 */
+}
+
+/* 内层三角形(主体) */
+.menu-main .sub-menu:after {
+  content: '';
+  position: absolute;
+  left: 21px;
+  top: -8px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #f2f2f2;
+  z-index: 1;
+}
+
+.showKeyFeaturePadding{
+  padding: 80px 0 !important;
+}
+
+.offer_thumb_li_flex .image_wrapper{
+  padding-top: 50px;
+}
+
+.offer_thumb .slider_pagination_a{
+  width: 30%;
+}
+.offer_thumb .slider_pagination_a a{
+  width: 100% !important;
+  height: 85px !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  margin: 0 !important;
+}
+.offer_thumb .slider_pagination_a a.selected{
+  top: 0 !important;
+}
+.offer_thumb .slider_pagination_a a text{
+  text-align: left;
+  line-height: 18px;
+}
+
+.offer_thumb .slider_pagination_a a {
+  position: relative;
+  padding-right: 30px;
+}
+
+/* 外层三角形(作为border) */
+.offer_thumb .slider_pagination_a a:before {
+  content: '';
+  position: absolute !important;
+  right: -12px !important;
+  top: 35px !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-top: 12px solid transparent !important;
+  border-bottom: 12px solid transparent !important;
+  border-left: 12px solid rgba(0, 0, 0, 0.08) !important; /* border颜色 */
+  transition: all 0.3s ease !important;
+  background: transparent !important;
+  transform: rotate(0) !important;
+}
+
+/* 内层三角形(主体) */
+.offer_thumb .slider_pagination_a a:after {
+  content: '';
+  position: absolute !important;
+  right: -10px !important;
+  top: 37px !important;
+  margin: 0px !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-top: 10px solid transparent !important;
+  border-bottom: 10px solid transparent !important;
+  border-left: 10px solid #fff;
+  transition: all 0.3s ease;
+  background: transparent;
+  transform: rotate(0) !important;
+  z-index: 1; /* 确保在border上层 */
+}
+
+/* 悬停和激活状态的样式 */
+.offer_thumb .slider_pagination_a a.selected::after {
+  border-left-color: #5fd58c !important;
+}
+
+.offer_thumb .slider_pagination_a a.selected{
+  background-image: none !important;
+  background-color: #5fd58c !important;
+}
+
+.footer-text h6, .footer-text a{
+  color: #fff !important;
+}
+
+.show-col h2, .show-col p, .show-col a{
+  color: #252525 !important;
+}
+
+#plumber .offer_thumb_ul li.offer_thumb_li .image_wrapper, #plumber .offer_thumb_ul li.offer_thumb_li .desc_wrapper{
+  padding-right: 25px;
+}
+
+
+@media only screen and (min-width: 768px){
+  .offer_thumb{
+    padding-left: 210px !important;
+  }
+  #plumber .offer_thumb_ul li.offer_thumb_li .image_wrapper, #plumber .offer_thumb_ul li.offer_thumb_li .desc_wrapper{
+    float: none !important;
+    width: 100% !important;
+  }
+
+  .offer_thumb #slider_pagination a{
+    width: 200px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+  }
+  .offer_thumb #slider_pagination a img{
+    width: 50px !important;
+  }
+  .offer_thumb #slider_pagination a text{
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 10px;
+    text-align: left;
+    color: #212529;
+    text-decoration: none;
+  }
+  .offer_thumb #slider_pagination a text::selection{
+    text-decoration: none;
+  }
+}
+
+.desc_wrapper_bottom{
+  text-align: right;
+}
+
+.row-icon-hover .col-md-20{
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.row-icon-hover .col-md-20:hover{
+  transform: scale(1.1);
+}
+
+.data-row-wrap{
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.ready-btn-row{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.ready-btn-row .hover_color_wrapper{
+  margin-left: 20px !important;
+}
+
+@media only screen and (max-width: 768px){
+.flex-reverse-row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .row-icon-hover > div:not(first-child){
+    margin-top: 15px;
+  }
+
+  .row-icon-hover:not(:first-child){
+    margin-top: 15px !important;
+  }
+
+  .row-icon-hover{
+    width: 60%;
+    margin: 0 auto !important;
+  }
+
+  #plumber .offer_thumb_ul li.offer_thumb_li .desc_wrapper .title {
+  	margin-bottom: 10px;
+  	padding-right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ready-btn-row{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ready-btn-row .hover_color_wrapper{
+    margin: 20px 0 0 !important;
+  }
+
+  #finance4 #Top_bar{
+    position: absolute;
+  }
+}
+
+.finance4-drawer {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100vh;
+  background: #050d42;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  transition: right 0.3s ease;
+  z-index: 10000;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.finance4-drawer.active {
+  right: 0;
+}
+
+.finance4-drawer .menu-item-has-children:hover > .sub-menu{
+  display: none;
+}
+
+.finance4-drawer .active .sub-menu{
+  display: block;
+}
+
+.finance4-drawer-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.finance4-drawer-cover.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* 添加第一级菜单项的样式 */
+.finance4-drawer > ul > li > a {
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 0;
+}
+
+/* 子菜单项保持原有颜色 */
+.finance4-drawer .sub-menu li a {
+  color: #212529 !important;
+  font-size: 14px;
+}
+
+.drawer-close {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background: transparent !important;
+  color: #fff;
+}
+
+.finance4-drawer ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+}
+
+.finance4-drawer #menu-main-menu{
+  margin-top: 30px;
+}
+
+.finance4-drawer li {
+  padding: 0;
+}
+
+.finance4-drawer .sub-menu li {
+  width: 170px;
+}
+
+.finance4-drawer .sub-menu {
+  padding: 5px 20px;
+  display: none;
+}
+
+.finance4-drawer .menu-item-has-children > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finance4-drawer .menu-item-has-children > a:after {
+  content: '+';
+  font-size: 18px;
+}
+
+.finance4-drawer .menu-item-has-children.active > a:after {
+  content: '-';
+}
+
+.finance4-drawer .menu-item-has-children.active .sub-menu {
+  display: block;
+}
+
+.finance4-drawer-btn{
+  /* position: absolute;
+  left: 20px;
+  top: 400px; */
+}
+
+.finance4-drawer-btn .light-btn-style{
+  display: block !important;
+}

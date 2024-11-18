@@ -1,0 +1,3422 @@
+#insurance3 {
+  /*
+  |--------------------------------------------------------------------------
+  |   Demo Styles
+  |
+  |--------------------------------------------------------------------------
+  |
+  |
+  |
+  */
+  /* Section --------------------------------------------------------------------------- */
+  /* Button Item ----------------------------------------------------------------------- */
+  /* ------------------------------------------- *
+  * font awesome
+  * ------------------------------------------- */
+  /* ------------------------------------------- *
+  * demo
+  * ------------------------------------------- */
+  /* sections */
+  /* custom inline add */
+}
+#insurance3 input[type="date"],
+#insurance3 input[type="email"],
+#insurance3 input[type="number"],
+#insurance3 input[type="password"],
+#insurance3 input[type="search"],
+#insurance3 input[type="tel"],
+#insurance3 input[type="text"],
+#insurance3 input[type="url"],
+#insurance3 select,
+#insurance3 textarea,
+#insurance3 .woocommerce .quantity input.qty {
+  border-width: 0 0 2px 0 !important;
+  box-shadow: unset;
+  resize: none;
+}
+#insurance3 a.action_button {
+  top: 50px;
+  padding: 11px 25px;
+  border-radius: 20px;
+}
+#insurance3 .is-sticky a.action_button {
+  top: 10px;
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 a.action_button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  #insurance3-wrap:not(.header-simple) #Top_bar #menu {
+    display: block !important;
+  }
+  #insurance3 .tr-menu #Top_bar #menu {
+    background: none !important;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu {
+    width: 984px;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li {
+    float: left;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li.mfn-megamenu-cols-1 {
+    width: 100%;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li.mfn-megamenu-cols-2 {
+    width: 50%;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li.mfn-megamenu-cols-3 {
+    width: 33.33%;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li.mfn-megamenu-cols-4 {
+    width: 25%;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li.mfn-megamenu-cols-5 {
+    width: 20%;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li.mfn-megamenu-cols-6 {
+    width: 16.66%;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li > ul {
+    display: block !important;
+    position: inherit;
+    left: auto;
+    top: auto;
+    border-width: 0 1px 0 0;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li:last-child > ul {
+    border: 0;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li > ul li {
+    width: auto;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu a.mfn-megamenu-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    background: none;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu a .menu-arrow {
+    display: none;
+  }
+  #insurance3 .menuo-right #Top_bar .menu > li > ul.mfn-megamenu {
+    left: auto;
+    right: 0;
+  }
+  #insurance3 .menuo-right #Top_bar .menu > li > ul.mfn-megamenu-bg {
+    box-sizing: border-box;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu-bg {
+    padding: 20px 166px 20px 20px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  #insurance3 .rtl #Top_bar .menu > li > ul.mfn-megamenu-bg {
+    padding-left: 166px;
+    padding-right: 20px;
+    background-position: left bottom;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu-bg > li {
+    background: none;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu-bg > li a {
+    border: none;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu-bg > li > ul {
+    background: none !important;
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+  }
+  #insurance3 .mm-vertical #Top_bar .container {
+    position: relative;
+  }
+  #insurance3 .mm-vertical #Top_bar .top_bar_left {
+    position: static;
+  }
+  #insurance3 .mm-vertical #Top_bar .menu > li ul {
+    box-shadow: 0 0 0 0 transparent !important;
+    background-image: none;
+  }
+  #insurance3 .mm-vertical #Top_bar .menu > li > ul.mfn-megamenu {
+    width: 98% !important;
+    margin: 0 1%;
+    padding: 20px 0;
+  }
+  #insurance3 .mm-vertical.header-plain #Top_bar .menu > li > ul.mfn-megamenu {
+    width: 100% !important;
+    margin: 0;
+  }
+  #insurance3 .mm-vertical #Top_bar .menu > li > ul.mfn-megamenu > li {
+    display: table-cell;
+    float: none !important;
+    width: 10%;
+    padding: 0 15px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  #insurance3
+    .mm-vertical
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    > li:last-child {
+    border-right-width: 0;
+  }
+  #insurance3
+    .mm-vertical
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    > li.hide-border {
+    border-right-width: 0;
+  }
+  #insurance3 .mm-vertical #Top_bar .menu > li > ul.mfn-megamenu > li a {
+    border-bottom-width: 0;
+    padding: 9px 15px;
+    line-height: 120%;
+  }
+  #insurance3
+    .mm-vertical
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    a.mfn-megamenu-title {
+    font-weight: 700;
+  }
+  #insurance3
+    .rtl
+    .mm-vertical
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    > li:first-child {
+    border-right-width: 0;
+  }
+  #insurance3
+    .rtl
+    .mm-vertical
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    > li:last-child {
+    border-right-width: 1px;
+  }
+  #insurance3 .header-plain:not(.menuo-right) #Header .top_bar_left {
+    width: auto !important;
+  }
+  #insurance3 .header-stack.header-center #Top_bar #menu {
+    display: inline-block !important;
+  }
+  #insurance3 .header-simple #Top_bar #menu {
+    display: none;
+    height: auto;
+    width: 300px;
+    bottom: auto;
+    top: 100%;
+    right: 1px;
+    position: absolute;
+    margin: 0;
+  }
+  #insurance3 .header-simple #Header a.responsive-menu-toggle {
+    display: block;
+    right: 10px;
+  }
+  #insurance3 .header-simple #Top_bar #menu > ul {
+    width: 100%;
+    float: left;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li {
+    width: 100%;
+    padding-bottom: 0;
+    border-right: 0;
+    position: relative;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li a {
+    padding: 0 20px;
+    margin: 0;
+    display: block;
+    height: auto;
+    line-height: normal;
+    border: none;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li a:after {
+    display: none;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li a span {
+    border: none;
+    line-height: 44px;
+    display: inline;
+    padding: 0;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li.submenu .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+    color: #444;
+    opacity: 0.33;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li.submenu .menu-toggle:after {
+    content: "+";
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li.hover > .menu-toggle:after {
+    content: "-";
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li.hover a {
+    border-bottom: 0;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul.mfn-megamenu li .menu-toggle {
+    display: none;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul {
+    position: relative !important;
+    left: 0 !important;
+    top: 0;
+    padding: 0;
+    margin: 0 !important;
+    width: auto !important;
+    background-image: none;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul li {
+    width: 100% !important;
+    display: block;
+    padding: 0;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul li a {
+    padding: 0 20px 0 30px;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul li a .menu-arrow {
+    display: none;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul li a span {
+    padding: 0;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul li a span:after {
+    display: none !important;
+  }
+  #insurance3
+    .header-simple
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    a.mfn-megamenu-title {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  #insurance3 .header-simple #Top_bar .menu > li > ul.mfn-megamenu > li > ul {
+    display: block !important;
+    position: inherit;
+    left: auto;
+    top: auto;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul li ul {
+    border-left: 0 !important;
+    padding: 0;
+    top: 0;
+  }
+  #insurance3 .header-simple #Top_bar #menu ul li ul li ul li a {
+    padding: 0 20px 0 40px;
+  }
+  #insurance3 .rtl.header-simple #Top_bar #menu {
+    left: 1px;
+    right: auto;
+  }
+  #insurance3 .rtl.header-simple #Top_bar a.responsive-menu-toggle {
+    left: 10px;
+    right: auto;
+  }
+  #insurance3 .rtl.header-simple #Top_bar #menu ul li.submenu .menu-toggle {
+    left: 0;
+    right: auto;
+  }
+  #insurance3 .rtl.header-simple #Top_bar #menu ul li ul {
+    left: auto !important;
+    right: 0 !important;
+  }
+  #insurance3 .rtl.header-simple #Top_bar #menu ul li ul li a {
+    padding: 0 30px 0 20px;
+  }
+  #insurance3 .rtl.header-simple #Top_bar #menu ul li ul li ul li a {
+    padding: 0 40px 0 20px;
+  }
+  #insurance3 .menu-highlight #Top_bar .menu > li {
+    margin: 0 2px;
+  }
+  #insurance3 .menu-highlight:not(.header-creative) #Top_bar .menu > li > a {
+    margin: 20px 0;
+    padding: 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  #insurance3 .menu-highlight #Top_bar .menu > li > a:after {
+    display: none;
+  }
+  #insurance3 .menu-highlight #Top_bar .menu > li > a span:not(.description) {
+    line-height: 50px;
+  }
+  #insurance3 .menu-highlight #Top_bar .menu > li > a span.description {
+    display: none;
+  }
+  #insurance3 .menu-highlight.header-stack #Top_bar .menu > li > a {
+    margin: 10px 0 !important;
+  }
+  #insurance3
+    .menu-highlight.header-stack
+    #Top_bar
+    .menu
+    > li
+    > a
+    span:not(.description) {
+    line-height: 40px;
+  }
+  #insurance3 .menu-highlight.header-transparent #Top_bar .menu > li > a {
+    margin: 5px 0;
+  }
+  #insurance3 .menu-highlight.header-simple #Top_bar #menu ul li,
+  #insurance3 .menu-highlight.header-creative #Top_bar #menu ul li {
+    margin: 0;
+  }
+  #insurance3 .menu-highlight.header-simple #Top_bar #menu ul li > a,
+  #insurance3 .menu-highlight.header-creative #Top_bar #menu ul li > a {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+  #insurance3
+    .menu-highlight:not(.header-fixed):not(.header-simple)
+    #Top_bar.is-sticky
+    .menu
+    > li
+    > a {
+    margin: 10px 0 !important;
+    padding: 5px 0 !important;
+  }
+  #insurance3
+    .menu-highlight:not(.header-fixed):not(.header-simple)
+    #Top_bar.is-sticky
+    .menu
+    > li
+    > a
+    span {
+    line-height: 30px !important;
+  }
+  #insurance3 .header-modern.menu-highlight.menuo-right .menu_wrapper {
+    margin-right: 20px;
+  }
+  #insurance3 .menu-line-below #Top_bar .menu > li > a:after {
+    top: auto;
+    bottom: -4px;
+  }
+  #insurance3 .menu-line-below #Top_bar.is-sticky .menu > li > a:after {
+    top: auto;
+    bottom: -4px;
+  }
+  #insurance3
+    .menu-line-below-80
+    #Top_bar:not(.is-sticky)
+    .menu
+    > li
+    > a:after {
+    height: 4px;
+    left: 10%;
+    top: 50%;
+    margin-top: 20px;
+    width: 80%;
+  }
+  #insurance3
+    .menu-line-below-80-1
+    #Top_bar:not(.is-sticky)
+    .menu
+    > li
+    > a:after {
+    height: 1px;
+    left: 10%;
+    top: 50%;
+    margin-top: 20px;
+    width: 80%;
+  }
+  #insurance3 .menu-link-color #Top_bar .menu > li > a:after {
+    display: none !important;
+  }
+  #insurance3 .menu-arrow-top #Top_bar .menu > li > a:after {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-color: #ccc transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin-left: -7px;
+    top: 0 !important;
+    width: 0;
+  }
+  #insurance3 .menu-arrow-top #Top_bar.is-sticky .menu > li > a:after {
+    top: 0 !important;
+  }
+  #insurance3 .menu-arrow-bottom #Top_bar .menu > li > a:after {
+    background: none !important;
+    border-color: transparent transparent #ccc;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin-left: -7px;
+    top: auto;
+    bottom: 0;
+    width: 0;
+  }
+  #insurance3 .menu-arrow-bottom #Top_bar.is-sticky .menu > li > a:after {
+    top: auto;
+    bottom: 0;
+  }
+  #insurance3 .menuo-no-borders #Top_bar .menu > li > a span {
+    border-width: 0 !important;
+  }
+  #insurance3 .menuo-no-borders #Header_creative #Top_bar .menu > li > a span {
+    border-bottom-width: 0;
+  }
+  #insurance3 .menuo-no-borders.header-plain #Top_bar a#header_cart,
+  #insurance3 .menuo-no-borders.header-plain #Top_bar a#search_button,
+  #insurance3 .menuo-no-borders.header-plain #Top_bar .wpml-languages,
+  #insurance3 .menuo-no-borders.header-plain #Top_bar a.action_button {
+    border-width: 0;
+  }
+  #insurance3 .menuo-right #Top_bar .menu_wrapper {
+    float: right;
+  }
+  #insurance3
+    .menuo-right.header-stack:not(.header-center)
+    #Top_bar
+    .menu_wrapper {
+    margin-right: 150px;
+  }
+  #insurance3-wrap.header-creative {
+    padding-left: 50px;
+  }
+  #insurance3-wrap.header-creative.header-open {
+    padding-left: 250px;
+  }
+  #insurance3-wrap.error404,
+  #insurance3-wrap.under-construction,
+  #insurance3-wrap.template-blank {
+    padding-left: 0 !important;
+  }
+  #insurance3 .header-creative.footer-fixed #Footer,
+  #insurance3 .header-creative.footer-sliding #Footer,
+  #insurance3 .header-creative.footer-stick #Footer.is-sticky {
+    box-sizing: border-box;
+    padding-left: 50px;
+  }
+  #insurance3 .header-open.footer-fixed #Footer,
+  #insurance3 .header-open.footer-sliding #Footer,
+  #insurance3 .header-creative.footer-stick #Footer.is-sticky {
+    padding-left: 250px;
+  }
+  #insurance3 .header-rtl.header-creative.footer-fixed #Footer,
+  #insurance3 .header-rtl.header-creative.footer-sliding #Footer,
+  #insurance3 .header-rtl.header-creative.footer-stick #Footer.is-sticky {
+    padding-left: 0;
+    padding-right: 50px;
+  }
+  #insurance3 .header-rtl.header-open.footer-fixed #Footer,
+  #insurance3 .header-rtl.header-open.footer-sliding #Footer,
+  #insurance3 .header-rtl.header-creative.footer-stick #Footer.is-sticky {
+    padding-right: 250px;
+  }
+  #insurance3 #Header_creative {
+    background-color: #fff;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -200px;
+    top: 0;
+    z-index: 9002;
+    -webkit-box-shadow: 2px 0 4px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 0 4px 2px rgba(0, 0, 0, 0.15);
+  }
+  #insurance3 #Header_creative .container {
+    width: 100%;
+  }
+  #insurance3 #Header_creative .creative-wrapper {
+    opacity: 0;
+    margin-right: 50px;
+  }
+  #insurance3 #Header_creative a.creative-menu-toggle {
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    border-radius: 3px;
+  }
+  #insurance3 .admin-bar #Header_creative a.creative-menu-toggle {
+    top: 42px;
+  }
+  #insurance3 #Header_creative #Top_bar {
+    position: static;
+    width: 100%;
+  }
+  #insurance3 #Header_creative #Top_bar .top_bar_left {
+    width: 100% !important;
+    float: none;
+  }
+  #insurance3 #Header_creative #Top_bar .top_bar_right {
+    width: 100% !important;
+    float: none;
+    height: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0 20px;
+    top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #insurance3 #Header_creative #Top_bar .top_bar_right:before {
+    display: none;
+  }
+  #insurance3 #Header_creative #Top_bar .top_bar_right_wrapper {
+    top: 0;
+  }
+  #insurance3 #Header_creative #Top_bar .logo {
+    float: none;
+    text-align: center;
+    margin: 15px 0;
+  }
+  #insurance3 #Header_creative #Top_bar #menu {
+    background-color: transparent;
+  }
+  #insurance3 #Header_creative #Top_bar .menu_wrapper {
+    float: none;
+    margin: 0 0 30px;
+  }
+  #insurance3 #Header_creative #Top_bar .menu > li {
+    width: 100%;
+    float: none;
+    position: relative;
+  }
+  #insurance3 #Header_creative #Top_bar .menu > li > a {
+    padding: 0;
+    text-align: center;
+  }
+  #insurance3 #Header_creative #Top_bar .menu > li > a:after {
+    display: none;
+  }
+  #insurance3 #Header_creative #Top_bar .menu > li > a span {
+    border-right: 0;
+    border-bottom-width: 1px;
+    line-height: 38px;
+  }
+  #insurance3 #Header_creative #Top_bar .menu li ul {
+    left: 100%;
+    right: auto;
+    top: 0;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.03);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.03);
+  }
+  #insurance3 #Header_creative #Top_bar .menu > li > ul.mfn-megamenu {
+    margin: 0;
+    width: 700px !important;
+  }
+  #insurance3 #Header_creative #Top_bar .menu > li > ul.mfn-megamenu > li > ul {
+    left: 0;
+  }
+  #insurance3 #Header_creative #Top_bar .menu li ul li a {
+    padding-top: 9px;
+    padding-bottom: 8px;
+  }
+  #insurance3 #Header_creative #Top_bar .menu li ul li ul {
+    top: 0;
+  }
+  #insurance3 #Header_creative #Top_bar .menu > li > a span.description {
+    display: block;
+    font-size: 13px;
+    line-height: 28px !important;
+    clear: both;
+  }
+  #insurance3 #Header_creative #Top_bar .search_wrapper {
+    left: 100%;
+    top: auto;
+    bottom: 0;
+  }
+  #insurance3 #Header_creative #Top_bar a#header_cart {
+    display: inline-block;
+    float: none;
+    top: 3px;
+  }
+  #insurance3 #Header_creative #Top_bar a#search_button {
+    display: inline-block;
+    float: none;
+    top: 3px;
+  }
+  #insurance3 #Header_creative #Top_bar .wpml-languages {
+    display: inline-block;
+    float: none;
+    top: 0;
+  }
+  #insurance3 #Header_creative #Top_bar .wpml-languages.enabled:hover a.active {
+    padding-bottom: 11px;
+  }
+  #insurance3 #Header_creative #Top_bar .action_button {
+    display: inline-block;
+    float: none;
+    top: 16px;
+    margin: 0;
+  }
+  #insurance3 #Header_creative #Top_bar .banner_wrapper {
+    display: block;
+    text-align: center;
+  }
+  #insurance3 #Header_creative #Top_bar .banner_wrapper img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  #insurance3 #Header_creative #Action_bar {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    clear: both;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  #insurance3 #Header_creative #Action_bar .contact_details {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #insurance3 #Header_creative #Action_bar .contact_details li {
+    padding: 0;
+  }
+  #insurance3 #Header_creative #Action_bar .social {
+    float: none;
+    text-align: center;
+    padding: 5px 0 15px;
+  }
+  #insurance3 #Header_creative #Action_bar .social li {
+    margin-bottom: 2px;
+  }
+  #insurance3 #Header_creative #Action_bar .social-menu {
+    float: none;
+    text-align: center;
+  }
+  #insurance3 #Header_creative #Action_bar .social-menu li {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+  #insurance3 #Header_creative .social li a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  #insurance3 #Header_creative .social li a:hover {
+    color: #000;
+  }
+  #insurance3 #Header_creative .creative-social {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 50px;
+  }
+  #insurance3 #Header_creative .creative-social li {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #insurance3 .header-creative .fixed-nav.fixed-nav-prev {
+    margin-left: 50px;
+  }
+  #insurance3 .header-creative.header-open .fixed-nav.fixed-nav-prev {
+    margin-left: 250px;
+  }
+  #insurance3 .menuo-last #Header_creative #Top_bar .menu li.last ul {
+    top: auto;
+    bottom: 0;
+  }
+  #insurance3 .header-open #Header_creative {
+    left: 0;
+  }
+  #insurance3 .header-open #Header_creative .creative-wrapper {
+    opacity: 1;
+    margin: 0 !important;
+  }
+  #insurance3 .header-open #Header_creative .creative-menu-toggle,
+  #insurance3 .header-open #Header_creative .creative-social {
+    display: none;
+  }
+  #insurance3 .header-open #Header_creative #Action_bar {
+    display: block;
+  }
+  #insurance3-wrap.header-rtl.header-creative {
+    padding-left: 0;
+    padding-right: 50px;
+  }
+  #insurance3 .header-rtl #Header_creative {
+    left: auto;
+    right: -200px;
+  }
+  #insurance3 .header-rtl #Header_creative .creative-wrapper {
+    margin-left: 50px;
+    margin-right: 0;
+  }
+  #insurance3 .header-rtl #Header_creative a.creative-menu-toggle {
+    left: 8px;
+    right: auto;
+  }
+  #insurance3 .header-rtl #Header_creative .creative-social {
+    left: 0;
+    right: auto;
+  }
+  #insurance3 .header-rtl #Footer #back_to_top.sticky {
+    right: 125px;
+  }
+  #insurance3 .header-rtl #popup_contact {
+    right: 70px;
+  }
+  #insurance3 .header-rtl #Header_creative #Top_bar .menu li ul {
+    left: auto;
+    right: 100%;
+  }
+  #insurance3 .header-rtl #Header_creative #Top_bar .search_wrapper {
+    left: auto;
+    right: 100%;
+  }
+  #insurance3 .header-rtl .fixed-nav.fixed-nav-prev {
+    margin-left: 0 !important;
+  }
+  #insurance3 .header-rtl .fixed-nav.fixed-nav-next {
+    margin-right: 50px;
+  }
+  #insurance3-wrap.header-rtl.header-creative.header-open {
+    padding-left: 0;
+    padding-right: 250px !important;
+  }
+  #insurance3 .header-rtl.header-open #Header_creative {
+    left: auto;
+    right: 0;
+  }
+  #insurance3 .header-rtl.header-open #Footer #back_to_top.sticky {
+    right: 325px;
+  }
+  #insurance3 .header-rtl.header-open #popup_contact {
+    right: 270px;
+  }
+  #insurance3 .header-rtl.header-open .fixed-nav.fixed-nav-next {
+    margin-right: 250px;
+  }
+  #insurance3 #Header_creative.active {
+    left: -1px;
+  }
+  #insurance3 .header-rtl #Header_creative.active {
+    left: auto;
+    right: -1px;
+  }
+  #insurance3 #Header_creative.active .creative-wrapper {
+    opacity: 1;
+    margin: 0;
+  }
+  #insurance3 .header-creative .vc_row[data-vc-full-width] {
+    padding-left: 50px;
+  }
+  #insurance3 .header-creative.header-open .vc_row[data-vc-full-width] {
+    padding-left: 250px;
+  }
+  #insurance3 .header-open .vc_parallax .vc_parallax-inner {
+    left: auto;
+    width: calc(100% - 250px);
+  }
+  #insurance3 .header-open.header-rtl .vc_parallax .vc_parallax-inner {
+    left: 0;
+    right: auto;
+  }
+  #insurance3 #Header_creative.scroll {
+    height: 100%;
+    overflow-y: auto;
+  }
+  #insurance3 #Header_creative.scroll:not(.dropdown) .menu li ul {
+    display: none !important;
+  }
+  #insurance3 #Header_creative.scroll #Action_bar {
+    position: static;
+  }
+  #insurance3 #Header_creative.dropdown {
+    outline: none;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar .menu_wrapper {
+    float: left;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li {
+    position: relative;
+    float: left;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li a:after {
+    display: none;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li a span {
+    line-height: 38px;
+    padding: 0;
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    #menu
+    ul
+    li.submenu
+    .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+    color: #444;
+    opacity: 0.33;
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    #menu
+    ul
+    li.submenu
+    .menu-toggle:after {
+    content: "+";
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    #menu
+    ul
+    li.hover
+    > .menu-toggle:after {
+    content: "-";
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li.hover a {
+    border-bottom: 0;
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    #menu
+    ul.mfn-megamenu
+    li
+    .menu-toggle {
+    display: none;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li ul {
+    position: relative !important;
+    left: 0 !important;
+    top: 0;
+    padding: 0;
+    margin-left: 0 !important;
+    width: auto !important;
+    background-image: none;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li ul li {
+    width: 100% !important;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li ul li a {
+    padding: 0 10px;
+    text-align: center;
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    #menu
+    ul
+    li
+    ul
+    li
+    a
+    .menu-arrow {
+    display: none;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li ul li a span {
+    padding: 0;
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    #menu
+    ul
+    li
+    ul
+    li
+    a
+    span:after {
+    display: none !important;
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    a.mfn-megamenu-title {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  #insurance3
+    #Header_creative.dropdown
+    #Top_bar
+    .menu
+    > li
+    > ul.mfn-megamenu
+    > li
+    > ul {
+    display: block !important;
+    position: inherit;
+    left: auto;
+    top: auto;
+  }
+  #insurance3 #Header_creative.dropdown #Top_bar #menu ul li ul li ul {
+    border-left: 0 !important;
+    padding: 0;
+    top: 0;
+  }
+  #insurance3 #Header_creative {
+    transition: left 0.5s ease-in-out, right 0.5s ease-in-out;
+  }
+  #insurance3 #Header_creative .creative-wrapper {
+    transition: opacity 0.5s ease-in-out, margin 0s ease-in-out 0.5s;
+  }
+  #insurance3 #Header_creative.active .creative-wrapper {
+    transition: opacity 0.5s ease-in-out, margin 0s ease-in-out;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #insurance3 #Top_bar.is-sticky {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: -60px;
+    height: 60px;
+    z-index: 701;
+    background: #fff;
+    opacity: 0.97;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+  #insurance3 .layout-boxed.header-boxed #Top_bar.is-sticky {
+    max-width: 1240px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #insurance3 #Top_bar.is-sticky .top_bar_left,
+  #insurance3 #Top_bar.is-sticky .top_bar_right,
+  #insurance3 #Top_bar.is-sticky .top_bar_right:before {
+    background: none;
+  }
+  #insurance3 #Top_bar.is-sticky .top_bar_right {
+    top: -4px;
+    height: auto;
+  }
+  #insurance3 #Top_bar.is-sticky .top_bar_right_wrapper {
+    top: 15px;
+  }
+  #insurance3 .header-plain #Top_bar.is-sticky .top_bar_right_wrapper {
+    top: 0;
+  }
+  #insurance3 #Top_bar.is-sticky .logo {
+    width: auto;
+    margin: 0 30px 0 20px;
+    padding: 0;
+  }
+  #insurance3 #Top_bar.is-sticky #logo,
+  #insurance3 #Top_bar.is-sticky .custom-logo-link {
+    padding: 5px 0 !important;
+    height: 50px !important;
+    line-height: 50px !important;
+  }
+  #insurance3 .logo-no-sticky-padding #Top_bar.is-sticky #logo {
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+  #insurance3 #Top_bar.is-sticky #logo img.logo-main {
+    display: none;
+  }
+  #insurance3 #Top_bar.is-sticky #logo img.logo-sticky {
+    display: inline;
+    max-height: 35px;
+  }
+  #insurance3 #Top_bar.is-sticky .menu_wrapper {
+    clear: none;
+  }
+  #insurance3 #Top_bar.is-sticky .menu_wrapper .menu > li > a {
+    padding: 15px 0;
+  }
+  #insurance3 #Top_bar.is-sticky .menu > li > a,
+  #insurance3 #Top_bar.is-sticky .menu > li > a span {
+    line-height: 30px;
+  }
+  #insurance3 #Top_bar.is-sticky .menu > li > a:after {
+    top: auto;
+    bottom: -4px;
+  }
+  #insurance3 #Top_bar.is-sticky .menu > li > a span.description {
+    display: none;
+  }
+  #insurance3 #Top_bar.is-sticky .secondary_menu_wrapper,
+  #insurance3 #Top_bar.is-sticky .banner_wrapper {
+    display: none;
+  }
+  #insurance3 .header-overlay #Top_bar.is-sticky {
+    display: none;
+  }
+  #insurance3 .sticky-dark #Top_bar.is-sticky,
+  #insurance3 .sticky-dark #Top_bar.is-sticky #menu {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  #insurance3 .sticky-dark #Top_bar.is-sticky .menu > li > a {
+    color: #fff;
+  }
+  #insurance3
+    .sticky-dark
+    #Top_bar.is-sticky
+    .top_bar_right
+    a:not(.action_button) {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #insurance3 .sticky-dark #Top_bar.is-sticky .wpml-languages a.active,
+  #insurance3
+    .sticky-dark
+    #Top_bar.is-sticky
+    .wpml-languages
+    ul.wpml-lang-dropdown {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+  #insurance3 .sticky-white #Top_bar.is-sticky,
+  #insurance3 .sticky-white #Top_bar.is-sticky #menu {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  #insurance3 .sticky-white #Top_bar.is-sticky .menu > li > a {
+    color: #222;
+  }
+  #insurance3
+    .sticky-white
+    #Top_bar.is-sticky
+    .top_bar_right
+    a:not(.action_button) {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  #insurance3 .sticky-white #Top_bar.is-sticky .wpml-languages a.active,
+  #insurance3
+    .sticky-white
+    #Top_bar.is-sticky
+    .wpml-languages
+    ul.wpml-lang-dropdown {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+}
+@media only screen and (max-width: 1239px) {
+  #insurance3 #Top_bar #menu {
+    display: none;
+    height: auto;
+    width: 300px;
+    bottom: auto;
+    top: 100%;
+    right: 1px;
+    position: absolute;
+    margin: 0;
+  }
+  #insurance3 #Top_bar a.responsive-menu-toggle {
+    display: block;
+  }
+  #insurance3 #Top_bar #menu > ul {
+    width: 100%;
+    float: left;
+  }
+  #insurance3 #Top_bar #menu ul li {
+    width: 100%;
+    padding-bottom: 0;
+    border-right: 0;
+    position: relative;
+  }
+  #insurance3 #Top_bar #menu ul li a {
+    padding: 0 25px;
+    margin: 0;
+    display: block;
+    height: auto;
+    line-height: normal;
+    border: none;
+  }
+  #insurance3 #Top_bar #menu ul li a:after {
+    display: none;
+  }
+  #insurance3 #Top_bar #menu ul li a span {
+    border: none;
+    line-height: 44px;
+    display: inline;
+    padding: 0;
+  }
+  #insurance3 #Top_bar #menu ul li a span.description {
+    margin: 0 0 0 5px;
+  }
+  #insurance3 #Top_bar #menu ul li.submenu .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+    color: #444;
+    opacity: 0.33;
+  }
+  #insurance3 #Top_bar #menu ul li.submenu .menu-toggle:after {
+    content: "+";
+  }
+  #insurance3 #Top_bar #menu ul li.hover > .menu-toggle:after {
+    content: "-";
+  }
+  #insurance3 #Top_bar #menu ul li.hover a {
+    border-bottom: 0;
+  }
+  #insurance3 #Top_bar #menu ul li a span:after {
+    display: none !important;
+  }
+  #insurance3 #Top_bar #menu ul.mfn-megamenu li .menu-toggle {
+    display: none;
+  }
+  #insurance3 #Top_bar #menu ul li ul {
+    position: relative !important;
+    left: 0 !important;
+    top: 0;
+    padding: 0;
+    margin-left: 0 !important;
+    width: auto !important;
+    background-image: none !important;
+    box-shadow: 0 0 0 0 transparent !important;
+    -webkit-box-shadow: 0 0 0 0 transparent !important;
+  }
+  #insurance3 #Top_bar #menu ul li ul li {
+    width: 100% !important;
+  }
+  #insurance3 #Top_bar #menu ul li ul li a {
+    padding: 0 20px 0 35px;
+  }
+  #insurance3 #Top_bar #menu ul li ul li a .menu-arrow {
+    display: none;
+  }
+  #insurance3 #Top_bar #menu ul li ul li a span {
+    padding: 0;
+  }
+  #insurance3 #Top_bar #menu ul li ul li a span:after {
+    display: none !important;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu a.mfn-megamenu-title {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  #insurance3 #Top_bar .menu > li > ul.mfn-megamenu > li > ul {
+    display: block !important;
+    position: inherit;
+    left: auto;
+    top: auto;
+  }
+  #insurance3 #Top_bar #menu ul li ul li ul {
+    border-left: 0 !important;
+    padding: 0;
+    top: 0;
+  }
+  #insurance3 #Top_bar #menu ul li ul li ul li a {
+    padding: 0 20px 0 45px;
+  }
+  #insurance3 .rtl #Top_bar #menu {
+    left: 1px;
+    right: auto;
+  }
+  #insurance3 .rtl #Top_bar a.responsive-menu-toggle {
+    left: 20px;
+    right: auto;
+  }
+  #insurance3 .rtl #Top_bar #menu ul li.submenu .menu-toggle {
+    left: 15px;
+    right: auto;
+    border-left: none;
+    border-right: 1px solid #eee;
+  }
+  #insurance3 .rtl #Top_bar #menu ul li ul {
+    left: auto !important;
+    right: 0 !important;
+  }
+  #insurance3 .rtl #Top_bar #menu ul li ul li a {
+    padding: 0 30px 0 20px;
+  }
+  #insurance3 .rtl #Top_bar #menu ul li ul li ul li a {
+    padding: 0 40px 0 20px;
+  }
+  #insurance3 .header-stack .menu_wrapper a.responsive-menu-toggle {
+    position: static !important;
+    margin: 11px 0 !important;
+  }
+  #insurance3 .header-stack .menu_wrapper #menu {
+    left: 0;
+    right: auto;
+  }
+  #insurance3 .rtl.header-stack #Top_bar #menu {
+    left: auto;
+    right: 0;
+  }
+  #insurance3 .admin-bar #Header_creative {
+    top: 32px;
+  }
+  #insurance3 .header-creative.layout-boxed {
+    padding-top: 85px;
+  }
+  #insurance3 .header-creative.layout-full-width #insurance3-Wrapper {
+    padding-top: 60px;
+  }
+  #insurance3 #Header_creative {
+    position: fixed;
+    width: 100%;
+    left: 0 !important;
+    top: 0;
+    z-index: 1001;
+  }
+  #insurance3 #Header_creative .creative-wrapper {
+    display: block !important;
+    opacity: 1 !important;
+  }
+  #insurance3 #Header_creative .creative-menu-toggle,
+  #insurance3 #Header_creative .creative-social {
+    display: none !important;
+    opacity: 1 !important;
+  }
+  #insurance3 #Header_creative #Top_bar {
+    position: static;
+    width: 100%;
+  }
+  #insurance3 #Header_creative #Top_bar #logo,
+  #insurance3 #Header_creative #Top_bar .custom-logo-link {
+    height: 50px;
+    line-height: 50px;
+    padding: 5px 0;
+  }
+  #insurance3 #Header_creative #Top_bar #logo img.logo-sticky {
+    max-height: 40px !important;
+  }
+  #insurance3 #Header_creative #logo img.logo-main {
+    display: none;
+  }
+  #insurance3 #Header_creative #logo img.logo-sticky {
+    display: inline-block;
+  }
+  #insurance3 .logo-no-sticky-padding #Header_creative #Top_bar #logo {
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+  }
+  #insurance3
+    .logo-no-sticky-padding
+    #Header_creative
+    #Top_bar
+    #logo
+    img.logo-sticky {
+    max-height: 60px !important;
+  }
+  #insurance3 #Header_creative #Action_bar {
+    display: none;
+  }
+  #insurance3 #Header_creative #Top_bar .top_bar_right {
+    height: 60px;
+    top: 0;
+  }
+  #insurance3 #Header_creative #Top_bar .top_bar_right:before {
+    display: none;
+  }
+  #insurance3 #Header_creative #Top_bar .top_bar_right_wrapper {
+    top: 0;
+    padding-top: 9px;
+  }
+  #insurance3 #Header_creative.scroll {
+    overflow: visible !important;
+  }
+}
+#insurance3 #Header_wrapper,
+#insurance3 #Intro {
+  background-color: #fff;
+}
+#insurance3 #Subheader {
+  background-color: #f7f7f7;
+}
+#insurance3 .header-classic #Action_bar,
+#insurance3 .header-fixed #Action_bar,
+#insurance3 .header-plain #Action_bar,
+#insurance3 .header-split #Action_bar,
+#insurance3 .header-stack #Action_bar {
+  background-color: #292b33;
+}
+#insurance3 #Sliding-top {
+  background-color: #545454;
+}
+#insurance3 #Sliding-top a.sliding-top-control {
+  border-right-color: #545454;
+}
+#insurance3 #Sliding-top.st-center a.sliding-top-control,
+#insurance3 #Sliding-top.st-left a.sliding-top-control {
+  border-top-color: #545454;
+}
+#insurance3 #Footer {
+  background-color: #0b1649;
+}
+#insurance3-wrap,
+#insurance3 ul.timeline_items,
+#insurance3 .icon_box a .desc,
+#insurance3 .icon_box a:hover .desc,
+#insurance3 .feature_list ul li a,
+#insurance3 .list_item a,
+#insurance3 .list_item a:hover,
+#insurance3 .widget_recent_entries ul li a,
+#insurance3 .flat_box a,
+#insurance3 .flat_box a:hover,
+#insurance3 .story_box .desc,
+#insurance3 .content_slider.carouselul li a .title,
+#insurance3 .content_slider.flat.description ul li .desc,
+#insurance3 .content_slider.flat.description ul li a .desc,
+#insurance3 .post-nav.minimal a i {
+  color: #a8aabe;
+}
+#insurance3 .post-nav.minimal a svg {
+  fill: #a8aabe;
+}
+#insurance3 .themecolor,
+#insurance3 .opening_hours .opening_hours_wrapper li span,
+#insurance3 .fancy_heading_icon .icon_top,
+#insurance3 .fancy_heading_arrows .icon-right-dir,
+#insurance3 .fancy_heading_arrows .icon-left-dir,
+#insurance3 .fancy_heading_line .title,
+#insurance3 .button-love a.mfn-love,
+#insurance3 .format-link .post-title .icon-link,
+#insurance3 .pager-single > span,
+#insurance3 .pager-single a:hover,
+#insurance3 .widget_meta ul,
+#insurance3 .widget_pages ul,
+#insurance3 .widget_rss ul,
+#insurance3 .widget_mfn_recent_comments ul li:after,
+#insurance3 .widget_archive ul,
+#insurance3 .widget_recent_comments ul li:after,
+#insurance3 .widget_nav_menu ul,
+#insurance3 .woocommerce ul.products li.product .price,
+#insurance3 .shop_slider .shop_slider_ul li .item_wrapper .price,
+#insurance3 .woocommerce-page ul.products li.product .price,
+#insurance3 .widget_price_filter .price_label .from,
+#insurance3 .widget_price_filter .price_label .to,
+#insurance3 .woocommerce ul.product_list_widget li .quantity .amount,
+#insurance3 .woocommerce .product div.entry-summary .price,
+#insurance3 .woocommerce .star-rating span,
+#insurance3 #Error_404 .error_pic i,
+#insurance3 .style-simple #Filters .filters_wrapper ul li a:hover,
+#insurance3 .style-simple #Filters .filters_wrapper ul li.current-cat a,
+#insurance3 .style-simple .quick_fact .title {
+  color: #272b5c;
+}
+#insurance3 .themebg,
+#insurance3 #comments .commentlist > li .reply a.comment-reply-link,
+#insurance3 #Filters .filters_wrapper ul li a:hover,
+#insurance3 #Filters .filters_wrapper ul li.current-cat a,
+#insurance3 .fixed-nav .arrow,
+#insurance3 .offer_thumb .slider_pagination a:before,
+#insurance3 .offer_thumb .slider_pagination a.selected:after,
+#insurance3 .pager .pages a:hover,
+#insurance3 .pager .pages a.active,
+#insurance3 .pager .pages span.page-numbers.current,
+#insurance3 .pager-single span:after,
+#insurance3 .portfolio_group.exposure .portfolio-item .desc-inner .line,
+#insurance3 .Recent_posts ul li .desc:after,
+#insurance3 .Recent_posts ul li .photo .c,
+#insurance3 .slider_pagination a.selected,
+#insurance3 .slider_pagination .slick-active a,
+#insurance3 .slider_pagination a.selected:after,
+#insurance3 .slider_pagination .slick-active a:after,
+#insurance3 .testimonials_slider .slider_images,
+#insurance3 .testimonials_slider .slider_images a:after,
+#insurance3 .testimonials_slider .slider_images:before,
+#insurance3 #Top_bar a#header_cart span,
+#insurance3 .widget_categories ul,
+#insurance3 .widget_mfn_menu ul li a:hover,
+#insurance3
+  .widget_mfn_menu
+  ul
+  li.current-menu-item:not(.current-menu-ancestor)
+  > a,
+#insurance3
+  .widget_mfn_menu
+  ul
+  li.current-menu-item:not(.current_page_ancestor)
+  > a,
+#insurance3 .widget_product_categories ul,
+#insurance3 .widget_recent_entries ul li:after,
+#insurance3 .woocommerce-account table.my_account_orders .order-number a,
+#insurance3 .woocommerce-MyAccount-navigation ul li.is-active a,
+#insurance3 .style-simple .accordion .question:after,
+#insurance3 .style-simple .faq .question:after,
+#insurance3 .style-simple .icon_box .desc_wrapper .title:before,
+#insurance3 .style-simple #Filters .filters_wrapper ul li a:after,
+#insurance3 .style-simple .article_box .desc_wrapper p:after,
+#insurance3 .style-simple .sliding_box .desc_wrapper:after,
+#insurance3 .style-simple .trailer_box:hover .desc,
+#insurance3 .tp-bullets.simplebullets.round .bullet.selected,
+#insurance3 .tp-bullets.simplebullets.round .bullet.selected:after,
+#insurance3 .tparrows.default,
+#insurance3 .tp-bullets.tp-thumbs .bullet.selected:after {
+  background-color: #272b5c;
+}
+#insurance3 .Latest_news ul li .photo,
+#insurance3 .Recent_posts.blog_news ul li .photo,
+#insurance3 .style-simple .opening_hours .opening_hours_wrapper li label,
+#insurance3 .style-simple .timeline_items li:hover h3,
+#insurance3 .style-simple .timeline_items li:nth-child(even):hover h3,
+#insurance3 .style-simple .timeline_items li:hover .desc,
+#insurance3 .style-simple .timeline_items li:nth-child(even):hover,
+#insurance3 .style-simple .offer_thumb .slider_pagination a.selected {
+  border-color: #272b5c;
+}
+#insurance3 a {
+  color: #fc2820;
+}
+#insurance3 a:hover {
+  color: #cd150e;
+}
+#insurance3 *::-moz-selection {
+  background-color: #fc2820;
+  color: white;
+}
+#insurance3 *::selection {
+  background-color: #fc2820;
+  color: white;
+}
+#insurance3 .blockquote p.author span,
+#insurance3 .counter .desc_wrapper .title,
+#insurance3 .article_box .desc_wrapper p,
+#insurance3 .team .desc_wrapper p.subtitle,
+#insurance3 .pricing-box .plan-header p.subtitle,
+#insurance3 .pricing-box .plan-header .price sup.period,
+#insurance3 .chart_box p,
+#insurance3 .fancy_heading .inside,
+#insurance3 .fancy_heading_line .slogan,
+#insurance3 .post-meta,
+#insurance3 .post-meta a,
+#insurance3 .post-footer,
+#insurance3 .post-footer a span.label,
+#insurance3 .pager .pages a,
+#insurance3 .button-love a .label,
+#insurance3 .pager-single a,
+#insurance3 #comments .commentlist > li .comment-author .says,
+#insurance3 .fixed-nav .desc .date,
+#insurance3 .filters_buttons li.label,
+#insurance3 .Recent_posts ul li a .desc .date,
+#insurance3 .widget_recent_entries ul li .post-date,
+#insurance3 .tp_recent_tweets .twitter_time,
+#insurance3 .widget_price_filter .price_label,
+#insurance3 .shop-filters .woocommerce-result-count,
+#insurance3 .woocommerce ul.product_list_widget li .quantity,
+#insurance3 .widget_shopping_cart ul.product_list_widget li dl,
+#insurance3 .product_meta .posted_in,
+#insurance3 .woocommerce .shop_table .product-name .variation > dd,
+#insurance3 .shipping-calculator-button:after,
+#insurance3 .shop_slider .shop_slider_ul li .item_wrapper .price del,
+#insurance3 .testimonials_slider .testimonials_slider_ul li .author span,
+#insurance3 .testimonials_slider .testimonials_slider_ul li .author span a,
+#insurance3 .Latest_news ul li .desc_footer,
+#insurance3 .share-simple-wrapper .icons a {
+  color: #a8a8a8;
+}
+#insurance3 h1,
+#insurance3 h1 a,
+#insurance3 h1 a:hover,
+#insurance3 .text-logo #logo {
+  color: #272b5c;
+}
+#insurance3 h2,
+#insurance3 h2 a,
+#insurance3 h2 a:hover {
+  color: #272b5c;
+}
+#insurance3 h3,
+#insurance3 h3 a,
+#insurance3 h3 a:hover {
+  color: #272b5c;
+}
+#insurance3 h4,
+#insurance3 h4 a,
+#insurance3 h4 a:hover,
+#insurance3 .style-simple .sliding_box .desc_wrapper h4 {
+  color: #272b5c;
+}
+#insurance3 h5,
+#insurance3 h5 a,
+#insurance3 h5 a:hover {
+  color: #272b5c;
+}
+#insurance3 h6,
+#insurance3 h6 a,
+#insurance3 h6 a:hover,
+#insurance3 a.content_link .title {
+  color: #272b5c;
+}
+#insurance3 .dropcap,
+#insurance3 .highlight:not(.highlight_image) {
+  background-color: #fc2820;
+}
+#insurance3 a.button,
+#insurance3 a.tp-button {
+  background-color: #f7f7f7;
+  color: #747474;
+}
+#insurance3 .button-stroke a.button,
+#insurance3 .button-stroke a.button .button_icon i,
+#insurance3 .button-stroke a.tp-button {
+  border-color: #f7f7f7;
+  color: #747474;
+}
+#insurance3 .button-stroke a:hover.button,
+#insurance3 .button-stroke a:hover.tp-button {
+  background-color: #f7f7f7 !important;
+  color: #fff;
+}
+#insurance3 a.button_theme,
+#insurance3 a.tp-button.button_theme,
+#insurance3 button,
+#insurance3 input[type="submit"],
+#insurance3 input[type="reset"],
+#insurance3 input[type="button"] {
+  background-color: #272b5c;
+  color: #fff;
+}
+#insurance3 .button-stroke a.button.button_theme,
+#insurance3 .button-stroke a.button.button_theme .button_icon i,
+#insurance3 .button-stroke a.tp-button.button_theme,
+#insurance3 .button-stroke button,
+#insurance3 .button-stroke input[type="submit"],
+#insurance3 .button-stroke input[type="reset"],
+#insurance3 .button-stroke input[type="button"] {
+  border-color: #272b5c;
+  color: #272b5c !important;
+}
+#insurance3 .button-stroke a.button.button_theme:hover,
+#insurance3 .button-stroke a.tp-button.button_theme:hover,
+#insurance3 .button-stroke button:hover,
+#insurance3 .button-stroke input[type="submit"]:hover,
+#insurance3 .button-stroke input[type="reset"]:hover,
+#insurance3 .button-stroke input[type="button"]:hover {
+  background-color: #272b5c !important;
+  color: #ffffff !important;
+}
+#insurance3 a.mfn-link {
+  color: #656b6f;
+}
+#insurance3 a.mfn-link-2 span,
+#insurance3 a:hover.mfn-link-2 span:before,
+#insurance3 a.hover.mfn-link-2 span:before,
+#insurance3 a.mfn-link-5 span,
+#insurance3 a.mfn-link-8:after,
+#insurance3 a.mfn-link-8:before {
+  background: #fc2820;
+}
+#insurance3 a:hover.mfn-link {
+  color: #fc2820;
+}
+#insurance3 a.mfn-link-2 span:before,
+#insurance3 a:hover.mfn-link-4:before,
+#insurance3 a:hover.mfn-link-4:after,
+#insurance3 a.hover.mfn-link-4:before,
+#insurance3 a.hover.mfn-link-4:after,
+#insurance3 a.mfn-link-5:before,
+#insurance3 a.mfn-link-7:after,
+#insurance3 a.mfn-link-7:before {
+  background: #cd150e;
+}
+#insurance3 a.mfn-link-6:before {
+  border-bottom-color: #cd150e;
+}
+#insurance3 .woocommerce #respond input#submit,
+#insurance3 .woocommerce a.button,
+#insurance3 .woocommerce button.button,
+#insurance3 .woocommerce input.button,
+#insurance3 .woocommerce #respond input#submit:hover,
+#insurance3 .woocommerce a.button:hover,
+#insurance3 .woocommerce button.button:hover,
+#insurance3 .woocommerce input.button:hover {
+  background-color: #272b5c;
+  color: #fff;
+}
+#insurance3 .woocommerce #respond input#submit.alt,
+#insurance3 .woocommerce a.button.alt,
+#insurance3 .woocommerce button.button.alt,
+#insurance3 .woocommerce input.button.alt,
+#insurance3 .woocommerce #respond input#submit.alt:hover,
+#insurance3 .woocommerce a.button.alt:hover,
+#insurance3 .woocommerce button.button.alt:hover,
+#insurance3 .woocommerce input.button.alt:hover {
+  background-color: #272b5c;
+  color: #fff;
+}
+#insurance3 .woocommerce #respond input#submit.disabled,
+#insurance3 .woocommerce #respond input#submit:disabled,
+#insurance3 .woocommerce #respond input#submit[disabled]:disabled,
+#insurance3 .woocommerce a.button.disabled,
+#insurance3 .woocommerce a.button:disabled,
+#insurance3 .woocommerce a.button[disabled]:disabled,
+#insurance3 .woocommerce button.button.disabled,
+#insurance3 .woocommerce button.button:disabled,
+#insurance3 .woocommerce button.button[disabled]:disabled,
+#insurance3 .woocommerce input.button.disabled,
+#insurance3 .woocommerce input.button:disabled,
+#insurance3 .woocommerce input.button[disabled]:disabled {
+  background-color: #272b5c;
+  color: #fff;
+}
+#insurance3 .woocommerce #respond input#submit.disabled:hover,
+#insurance3 .woocommerce #respond input#submit:disabled:hover,
+#insurance3 .woocommerce #respond input#submit[disabled]:disabled:hover,
+#insurance3 .woocommerce a.button.disabled:hover,
+#insurance3 .woocommerce a.button:disabled:hover,
+#insurance3 .woocommerce a.button[disabled]:disabled:hover,
+#insurance3 .woocommerce button.button.disabled:hover,
+#insurance3 .woocommerce button.button:disabled:hover,
+#insurance3 .woocommerce button.button[disabled]:disabled:hover,
+#insurance3 .woocommerce input.button.disabled:hover,
+#insurance3 .woocommerce input.button:disabled:hover,
+#insurance3 .woocommerce input.button[disabled]:disabled:hover {
+  background-color: #272b5c;
+  color: #fff;
+}
+#insurance3 .button-stroke.woocommerce-page #respond input#submit,
+#insurance3 .button-stroke.woocommerce-page a.button,
+#insurance3 .button-stroke.woocommerce-page button.button,
+#insurance3 .button-stroke.woocommerce-page input.button {
+  border: 2px solid #272b5c !important;
+  color: #272b5c !important;
+}
+#insurance3 .button-stroke.woocommerce-page #respond input#submit:hover,
+#insurance3 .button-stroke.woocommerce-page a.button:hover,
+#insurance3 .button-stroke.woocommerce-page button.button:hover,
+#insurance3 .button-stroke.woocommerce-page input.button:hover {
+  background-color: #272b5c !important;
+  color: #fff !important;
+}
+#insurance3 .column_column ul,
+#insurance3 .column_column ol,
+#insurance3 .the_content_wrapper ul,
+#insurance3 .the_content_wrapper ol {
+  color: #737e86;
+}
+#insurance3 .hr_color,
+#insurance3 .hr_color hr,
+#insurance3 .hr_dots span {
+  color: #fc2820;
+  background: #fc2820;
+}
+#insurance3 .hr_zigzag i {
+  color: #fc2820;
+}
+#insurance3 .highlight-left:after,
+#insurance3 .highlight-right:after {
+  background: #fff;
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 .highlight-left .wrap:first-child,
+  #insurance3 .highlight-right .wrap:last-child {
+    background: #fff;
+  }
+}
+#insurance3 #Header .top_bar_left,
+#insurance3 .header-classic #Top_bar,
+#insurance3 .header-plain #Top_bar,
+#insurance3 .header-stack #Top_bar,
+#insurance3 .header-split #Top_bar,
+#insurance3 .header-fixed #Top_bar,
+#insurance3 .header-below #Top_bar,
+#insurance3 #Header_creative,
+#insurance3 #Top_bar #menu,
+#insurance3 .sticky-tb-color #Top_bar.is-sticky {
+  background-color: #fff;
+}
+#insurance3 #Top_bar .wpml-languages a.active,
+#insurance3 #Top_bar .wpml-languages ul.wpml-lang-dropdown {
+  background-color: #fff;
+}
+#insurance3 #Top_bar .top_bar_right:before {
+  background-color: #e3e3e3;
+}
+#insurance3 #Header .top_bar_right {
+  background-color: #f5f5f5;
+}
+#insurance3 #Top_bar .top_bar_right a:not(.action_button) {
+  color: #333333;
+}
+#insurance3 a.action_button {
+  background-color: #fc2820;
+  color: #fff;
+}
+#insurance3 .button-stroke a.action_button {
+  border-color: #fc2820;
+}
+#insurance3 .button-stroke a.action_button:hover {
+  background-color: #fc2820 !important;
+}
+#insurance3 #Top_bar .menu > li > a,
+#insurance3 #Top_bar #menu ul li.submenu .menu-toggle {
+  color: #272b5c;
+}
+#insurance3 #Top_bar .menu > li.current-menu-item > a,
+#insurance3 #Top_bar .menu > li.current-menu-item > a,
+#insurance3 #Top_bar .menu > li.current-menu-parent > a,
+#insurance3 #Top_bar .menu > li.current-page-parent > a,
+#insurance3 #Top_bar .menu > li.current-menu-ancestor > a,
+#insurance3 #Top_bar .menu > li.current-page-ancestor > a,
+#insurance3 #Top_bar .menu > li.current_page_ancestor > a,
+#insurance3 #Top_bar .menu > li.hover > a {
+  color: #ec8c16;
+}
+#insurance3 #Top_bar .menu > li a:after {
+  background: #ec8c16;
+}
+#insurance3
+  .menuo-arrows
+  #Top_bar
+  .menu
+  > li.submenu
+  > a
+  > span:not(.description)::after {
+  border-top-color: #272b5c;
+}
+#insurance3
+  #Top_bar
+  .menu
+  > li.current-menu-item.submenu
+  > a
+  > span:not(.description)::after,
+#insurance3
+  #Top_bar
+  .menu
+  > li.current-menu-item.submenu
+  > a
+  > span:not(.description)::after,
+#insurance3
+  #Top_bar
+  .menu
+  > li.current-menu-parent.submenu
+  > a
+  > span:not(.description)::after,
+#insurance3
+  #Top_bar
+  .menu
+  > li.current-page-parent.submenu
+  > a
+  > span:not(.description)::after,
+#insurance3
+  #Top_bar
+  .menu
+  > li.current-menu-ancestor.submenu
+  > a
+  > span:not(.description)::after,
+#insurance3
+  #Top_bar
+  .menu
+  > li.current-page-ancestor.submenu
+  > a
+  > span:not(.description)::after,
+#insurance3
+  #Top_bar
+  .menu
+  > li.current_page_ancestor.submenu
+  > a
+  > span:not(.description)::after,
+#insurance3
+  #Top_bar
+  .menu
+  > li.hover.submenu
+  > a
+  > span:not(.description)::after {
+  border-top-color: #ec8c16;
+}
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.current-menu-item > a,
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.current-menu-item > a,
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.current-menu-parent > a,
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.current-page-parent > a,
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.current-menu-ancestor > a,
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.current-page-ancestor > a,
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.current_page_ancestor > a,
+#insurance3 .menu-highlight #Top_bar #menu > ul > li.hover > a {
+  background: #f2f2f2;
+}
+#insurance3 .menu-arrow-bottom #Top_bar .menu > li > a:after {
+  border-bottom-color: #ec8c16;
+}
+#insurance3 .menu-arrow-top #Top_bar .menu > li > a:after {
+  border-top-color: #ec8c16;
+}
+#insurance3 .header-plain #Top_bar .menu > li.current-menu-item > a,
+#insurance3 .header-plain #Top_bar .menu > li.current-menu-item > a,
+#insurance3 .header-plain #Top_bar .menu > li.current-menu-parent > a,
+#insurance3 .header-plain #Top_bar .menu > li.current-page-parent > a,
+#insurance3 .header-plain #Top_bar .menu > li.current-menu-ancestor > a,
+#insurance3 .header-plain #Top_bar .menu > li.current-page-ancestor > a,
+#insurance3 .header-plain #Top_bar .menu > li.current_page_ancestor > a,
+#insurance3 .header-plain #Top_bar .menu > li.hover > a,
+#insurance3 .header-plain #Top_bar a:hover#header_cart,
+#insurance3 .header-plain #Top_bar a:hover#search_button,
+#insurance3 .header-plain #Top_bar .wpml-languages:hover,
+#insurance3 .header-plain #Top_bar .wpml-languages ul.wpml-lang-dropdown {
+  background: #f2f2f2;
+  color: #ec8c16;
+}
+#insurance3 .header-plain #Top_bar,
+#insurance3 .header-plain #Top_bar .menu > li > a span:not(.description),
+#insurance3 .header-plain #Top_bar a#header_cart,
+#insurance3 .header-plain #Top_bar a#search_button,
+#insurance3 .header-plain #Top_bar .wpml-languages,
+#insurance3 .header-plain #Top_bar a.action_button {
+  border-color: #f2f2f2;
+}
+#insurance3 #Top_bar .menu > li ul {
+  background-color: #f2f2f2;
+}
+#insurance3 #Top_bar .menu > li ul li a {
+  color: #5f5f5f;
+}
+#insurance3 #Top_bar .menu > li ul li a:hover,
+#insurance3 #Top_bar .menu > li ul li.hover > a {
+  color: #2e2e2e;
+}
+#insurance3 #Top_bar .search_wrapper {
+  background: #272b5c;
+}
+#insurance3 .overlay-menu-toggle {
+  color: #ec8c16 !important;
+  background: transparent;
+}
+#insurance3 #Overlay {
+  background: rgba(39, 43, 92, 0.95);
+}
+#insurance3 #overlay-menu ul li a,
+#insurance3 .header-overlay .overlay-menu-toggle.focus {
+  color: #e4e7eb;
+}
+#insurance3 #overlay-menu ul li.current-menu-item > a,
+#insurance3 #overlay-menu ul li.current-menu-item > a,
+#insurance3 #overlay-menu ul li.current-menu-parent > a,
+#insurance3 #overlay-menu ul li.current-page-parent > a,
+#insurance3 #overlay-menu ul li.current-menu-ancestor > a,
+#insurance3 #overlay-menu ul li.current-page-ancestor > a,
+#insurance3 #overlay-menu ul li.current_page_ancestor > a {
+  color: #fff;
+}
+#insurance3 #Top_bar .responsive-menu-toggle,
+#insurance3 #Header_creative .creative-menu-toggle,
+#insurance3 #Header_creative .responsive-menu-toggle {
+  color: #ec8c16;
+  background: transparent;
+}
+#insurance3 #Side_slide {
+  background-color: #151732;
+  border-color: #151732;
+}
+#insurance3 #Side_slide,
+#insurance3 #Side_slide .search-wrapper input.field,
+#insurance3 #Side_slide a:not(.action_button),
+#insurance3 #Side_slide #menu ul li.submenu .menu-toggle {
+  color: #e4e7eb;
+}
+#insurance3 #Side_slide a:not(.action_button):hover,
+#insurance3 #Side_slide a.active,
+#insurance3 #Side_slide #menu ul li.hover > .menu-toggle {
+  color: #fff;
+}
+#insurance3 #Side_slide #menu ul li.current-menu-item > a,
+#insurance3 #Side_slide #menu ul li.current-menu-item > a,
+#insurance3 #Side_slide #menu ul li.current-menu-parent > a,
+#insurance3 #Side_slide #menu ul li.current-page-parent > a,
+#insurance3 #Side_slide #menu ul li.current-menu-ancestor > a,
+#insurance3 #Side_slide #menu ul li.current-page-ancestor > a,
+#insurance3 #Side_slide #menu ul li.current_page_ancestor > a,
+#insurance3 #Side_slide #menu ul li.hover > a,
+#insurance3 #Side_slide #menu ul li:hover > a {
+  color: #fff;
+}
+#insurance3 #Action_bar .contact_details {
+  color: #bbbbbb;
+}
+#insurance3 #Action_bar .contact_details a {
+  color: #fc2820;
+}
+#insurance3 #Action_bar .contact_details a:hover {
+  color: #cd150e;
+}
+#insurance3 #Action_bar .social li a,
+#insurance3 #Header_creative .social li a,
+#insurance3 #Action_bar:not(.creative) .social-menu a {
+  color: #bbbbbb;
+}
+#insurance3 #Action_bar .social li a:hover,
+#insurance3 #Header_creative .social li a:hover,
+#insurance3 #Action_bar:not(.creative) .social-menu a:hover {
+  color: #ffffff;
+}
+#insurance3 #Subheader .title {
+  color: #272b5c;
+}
+#insurance3 #Subheader ul.breadcrumbs li,
+#insurance3 #Subheader ul.breadcrumbs li a {
+  color: rgba(39, 43, 92, 0.6);
+}
+#insurance3 #Footer,
+#insurance3 #Footer .widget_recent_entries ul li a {
+  color: #a8aabe;
+}
+#insurance3 #Footer a {
+  color: #fff;
+}
+#insurance3 #Footer a:hover {
+  color: #ec8c16;
+}
+#insurance3 #Footer h1,
+#insurance3 #Footer h1 a,
+#insurance3 #Footer h1 a:hover,
+#insurance3 #Footer h2,
+#insurance3 #Footer h2 a,
+#insurance3 #Footer h2 a:hover,
+#insurance3 #Footer h3,
+#insurance3 #Footer h3 a,
+#insurance3 #Footer h3 a:hover,
+#insurance3 #Footer h4,
+#insurance3 #Footer h4 a,
+#insurance3 #Footer h4 a:hover,
+#insurance3 #Footer h5,
+#insurance3 #Footer h5 a,
+#insurance3 #Footer h5 a:hover,
+#insurance3 #Footer h6,
+#insurance3 #Footer h6 a,
+#insurance3 #Footer h6 a:hover {
+  color: #fff;
+}
+#insurance3 #Footer .themecolor,
+#insurance3 #Footer .widget_meta ul,
+#insurance3 #Footer .widget_pages ul,
+#insurance3 #Footer .widget_rss ul,
+#insurance3 #Footer .widget_mfn_recent_comments ul li:after,
+#insurance3 #Footer .widget_archive ul,
+#insurance3 #Footer .widget_recent_comments ul li:after,
+#insurance3 #Footer .widget_nav_menu ul,
+#insurance3 #Footer .widget_price_filter .price_label .from,
+#insurance3 #Footer .widget_price_filter .price_label .to,
+#insurance3 #Footer .star-rating span {
+  color: #fc2820;
+}
+#insurance3 #Footer .themebg,
+#insurance3 #Footer .widget_categories ul,
+#insurance3 #Footer .Recent_posts ul li .desc:after,
+#insurance3 #Footer .Recent_posts ul li .photo .c,
+#insurance3 #Footer .widget_recent_entries ul li:after,
+#insurance3 #Footer .widget_mfn_menu ul li a:hover,
+#insurance3 #Footer .widget_product_categories ul {
+  background-color: #fc2820;
+}
+#insurance3 #Footer .Recent_posts ul li a .desc .date,
+#insurance3 #Footer .widget_recent_entries ul li .post-date,
+#insurance3 #Footer .tp_recent_tweets .twitter_time,
+#insurance3 #Footer .widget_price_filter .price_label,
+#insurance3 #Footer .shop-filters .woocommerce-result-count,
+#insurance3 #Footer ul.product_list_widget li .quantity,
+#insurance3 #Footer .widget_shopping_cart ul.product_list_widget li dl {
+  color: #a8a8a8;
+}
+#insurance3 #Footer .footer_copy .social li a,
+#insurance3 #Footer .footer_copy .social-menu a {
+  color: #65666c;
+}
+#insurance3 #Footer .footer_copy .social li a:hover,
+#insurance3 #Footer .footer_copy .social-menu a:hover {
+  color: #fff;
+}
+#insurance3 #Footer .footer_copy {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+#insurance3 a#back_to_top.button.button_js,
+#insurance3 #popup_contact > a.button {
+  color: #65666c;
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#insurance3 a#back_to_top.button.button_js:after,
+#insurance3 #popup_contact > a.button:after {
+  display: none;
+}
+#insurance3 #Sliding-top,
+#insurance3 #Sliding-top .widget_recent_entries ul li a {
+  color: #cccccc;
+}
+#insurance3 #Sliding-top a {
+  color: #fc2820;
+}
+#insurance3 #Sliding-top a:hover {
+  color: #cd150e;
+}
+#insurance3 #Sliding-top h1,
+#insurance3 #Sliding-top h1 a,
+#insurance3 #Sliding-top h1 a:hover,
+#insurance3 #Sliding-top h2,
+#insurance3 #Sliding-top h2 a,
+#insurance3 #Sliding-top h2 a:hover,
+#insurance3 #Sliding-top h3,
+#insurance3 #Sliding-top h3 a,
+#insurance3 #Sliding-top h3 a:hover,
+#insurance3 #Sliding-top h4,
+#insurance3 #Sliding-top h4 a,
+#insurance3 #Sliding-top h4 a:hover,
+#insurance3 #Sliding-top h5,
+#insurance3 #Sliding-top h5 a,
+#insurance3 #Sliding-top h5 a:hover,
+#insurance3 #Sliding-top h6,
+#insurance3 #Sliding-top h6 a,
+#insurance3 #Sliding-top h6 a:hover {
+  color: #fff;
+}
+#insurance3 #Sliding-top .themecolor,
+#insurance3 #Sliding-top .widget_meta ul,
+#insurance3 #Sliding-top .widget_pages ul,
+#insurance3 #Sliding-top .widget_rss ul,
+#insurance3 #Sliding-top .widget_mfn_recent_comments ul li:after,
+#insurance3 #Sliding-top .widget_archive ul,
+#insurance3 #Sliding-top .widget_recent_comments ul li:after,
+#insurance3 #Sliding-top .widget_nav_menu ul,
+#insurance3 #Sliding-top .widget_price_filter .price_label .from,
+#insurance3 #Sliding-top .widget_price_filter .price_label .to,
+#insurance3 #Sliding-top .star-rating span {
+  color: #fc2820;
+}
+#insurance3 #Sliding-top .themebg,
+#insurance3 #Sliding-top .widget_categories ul,
+#insurance3 #Sliding-top .Recent_posts ul li .desc:after,
+#insurance3 #Sliding-top .Recent_posts ul li .photo .c,
+#insurance3 #Sliding-top .widget_recent_entries ul li:after,
+#insurance3 #Sliding-top .widget_mfn_menu ul li a:hover,
+#insurance3 #Sliding-top .widget_product_categories ul {
+  background-color: #fc2820;
+}
+#insurance3 #Sliding-top .Recent_posts ul li a .desc .date,
+#insurance3 #Sliding-top .widget_recent_entries ul li .post-date,
+#insurance3 #Sliding-top .tp_recent_tweets .twitter_time,
+#insurance3 #Sliding-top .widget_price_filter .price_label,
+#insurance3 #Sliding-top .shop-filters .woocommerce-result-count,
+#insurance3 #Sliding-top ul.product_list_widget li .quantity,
+#insurance3 #Sliding-top .widget_shopping_cart ul.product_list_widget li dl {
+  color: #a8a8a8;
+}
+#insurance3 blockquote,
+#insurance3 blockquote a,
+#insurance3 blockquote a:hover {
+  color: #444444;
+}
+#insurance3 .image_frame .image_wrapper .image_links,
+#insurance3
+  .portfolio_group.masonry-hover
+  .portfolio-item
+  .masonry-hover-wrapper
+  .hover-desc {
+  background: rgba(252, 40, 32, 0.8);
+}
+#insurance3
+  .masonry.tiles
+  .post-item
+  .post-desc-wrapper
+  .post-desc
+  .post-title:after,
+#insurance3 .masonry.tiles .post-item.no-img,
+#insurance3 .masonry.tiles .post-item.format-quote,
+#insurance3 .blog-teaser li .desc-wrapper .desc .post-title:after,
+#insurance3 .blog-teaser li.no-img,
+#insurance3 .blog-teaser li.format-quote {
+  background: #fc2820;
+}
+#insurance3 .image_frame .image_wrapper .image_links a {
+  color: #fff;
+}
+#insurance3 .image_frame .image_wrapper .image_links a:hover {
+  background: #fff;
+  color: #fc2820;
+}
+#insurance3 .image_frame {
+  border-color: #f8f8f8;
+}
+#insurance3 .image_frame .image_wrapper .mask::after {
+  background: rgba(255, 255, 255, 0.4);
+}
+#insurance3 .sliding_box .desc_wrapper {
+  background: #fc2820;
+}
+#insurance3 .sliding_box .desc_wrapper:after {
+  border-bottom-color: #fc2820;
+}
+#insurance3 .counter .icon_wrapper i {
+  color: #fc2820;
+}
+#insurance3 .quick_fact .number-wrapper {
+  color: #fc2820;
+}
+#insurance3 .progress_bars .bars_list li .bar .progress {
+  background-color: #fc2820;
+}
+#insurance3 a:hover.icon_bar {
+  color: #fc2820 !important;
+}
+#insurance3 a.content_link,
+#insurance3 a:hover.content_link {
+  color: #fc2820;
+}
+#insurance3 a.content_link:before {
+  border-bottom-color: #fc2820;
+}
+#insurance3 a.content_link:after {
+  border-color: #fc2820;
+}
+#insurance3 .get_in_touch,
+#insurance3 .infobox {
+  background-color: #fc2820;
+}
+#insurance3 .google-map-contact-wrapper .get_in_touch:after {
+  border-top-color: #fc2820;
+}
+#insurance3 .timeline_items li h3:before,
+#insurance3 .timeline_items:after,
+#insurance3 .timeline .post-item:before {
+  border-color: #272b5c;
+}
+#insurance3 .how_it_works .image .number {
+  background: #272b5c;
+}
+#insurance3 .trailer_box .desc .subtitle,
+#insurance3 .trailer_box.plain .desc .line {
+  background-color: #fc2820;
+}
+#insurance3 .trailer_box.plain .desc .subtitle {
+  color: #fc2820;
+}
+#insurance3 .icon_box .icon_wrapper,
+#insurance3 .icon_box a .icon_wrapper,
+#insurance3 .style-simple .icon_box:hover .icon_wrapper {
+  color: #fc2820;
+}
+#insurance3 .icon_box:hover .icon_wrapper:before,
+#insurance3 .icon_box a:hover .icon_wrapper:before {
+  background-color: #fc2820;
+}
+#insurance3 ul.clients.clients_tiles li .client_wrapper:hover:before {
+  background: #272b5c;
+}
+#insurance3 ul.clients.clients_tiles li .client_wrapper:after {
+  border-bottom-color: #272b5c;
+}
+#insurance3 .list_item.lists_1 .list_left {
+  background-color: #fc2820;
+}
+#insurance3 .list_item .list_left {
+  color: #fc2820;
+}
+#insurance3 .feature_list ul li .icon i {
+  color: #fc2820;
+}
+#insurance3 .feature_list ul li:hover,
+#insurance3 .feature_list ul li:hover a {
+  background: #fc2820;
+}
+#insurance3 .ui-tabs .ui-tabs-nav li.ui-state-active a,
+#insurance3 .accordion .question.active .title > .acc-icon-plus,
+#insurance3 .accordion .question.active .title > .acc-icon-minus,
+#insurance3 .faq .question.active .title > .acc-icon-plus,
+#insurance3 .faq .question.active .title,
+#insurance3 .accordion .question.active .title {
+  color: #fc2820;
+}
+#insurance3 .ui-tabs .ui-tabs-nav li.ui-state-active a:after {
+  background: #fc2820;
+}
+#insurance3-wrap.table-hover:not(.woocommerce-page) table tr:hover td {
+  background: #272b5c;
+}
+#insurance3 .pricing-box .plan-header .price sup.currency,
+#insurance3 .pricing-box .plan-header .price > span {
+  color: #fc2820;
+}
+#insurance3 .pricing-box .plan-inside ul li .yes {
+  background: #fc2820;
+}
+#insurance3 .pricing-box-box.pricing-box-featured {
+  background: #fc2820;
+}
+#insurance3 input[type="date"],
+#insurance3 input[type="email"],
+#insurance3 input[type="number"],
+#insurance3 input[type="password"],
+#insurance3 input[type="search"],
+#insurance3 input[type="tel"],
+#insurance3 input[type="text"],
+#insurance3 input[type="url"],
+#insurance3 select,
+#insurance3 textarea,
+#insurance3 .woocommerce .quantity input.qty,
+#insurance3 .dark input[type="email"],
+#insurance3 .dark input[type="password"],
+#insurance3 .dark input[type="tel"],
+#insurance3 .dark input[type="text"],
+#insurance3 .dark select,
+#insurance3 .dark textarea {
+  color: #272b5c;
+  background-color: #e6eef8;
+  border-color: #ebebeb;
+}
+#insurance3 ::-webkit-input-placeholder {
+  color: #929292;
+}
+#insurance3 ::-moz-placeholder {
+  color: #929292;
+}
+#insurance3 :-ms-input-placeholder {
+  color: #929292;
+}
+#insurance3 input[type="date"]:focus,
+#insurance3 input[type="email"]:focus,
+#insurance3 input[type="number"]:focus,
+#insurance3 input[type="password"]:focus,
+#insurance3 input[type="search"]:focus,
+#insurance3 input[type="tel"]:focus,
+#insurance3 input[type="text"]:focus,
+#insurance3 input[type="url"]:focus,
+#insurance3 select:focus,
+#insurance3 textarea:focus {
+  color: #272b5c;
+  background-color: #e6eef8 !important;
+  border-color: #d5e5ee;
+}
+#insurance3 :focus::-webkit-input-placeholder {
+  color: #929292;
+}
+#insurance3 :focus::-moz-placeholder {
+  color: #929292;
+}
+#insurance3 .woocommerce span.onsale,
+#insurance3 .shop_slider .shop_slider_ul li .item_wrapper span.onsale {
+  border-top-color: #272b5c !important;
+}
+#insurance3 .woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+  border-color: #272b5c !important;
+}
+@media only screen and (min-width: 768px) {
+  #insurance3 .header-semi #Top_bar:not(.is-sticky) {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 #Top_bar {
+    background-color: #ffffff !important;
+  }
+  #insurance3 #Action_bar {
+    background-color: #ffffff !important;
+  }
+  #insurance3 #Action_bar .contact_details {
+    color: #222222;
+  }
+  #insurance3 #Action_bar .contact_details a {
+    color: #fc2820;
+  }
+  #insurance3 #Action_bar .contact_details a:hover {
+    color: #cd150e;
+  }
+  #insurance3 #Action_bar .social li a,
+  #insurance3 #Action_bar .social-menu a {
+    color: #bbbbbb !important;
+  }
+  #insurance3 #Action_bar .social li a:hover,
+  #insurance3 #Action_bar .social-menu a:hover {
+    color: #777777 !important;
+  }
+}
+#insurance3 html {
+  background-color: #fff;
+}
+#insurance3 #insurance3-Wrapper,
+#insurance3 #insurance3-Content {
+  background-color: #fff;
+}
+#insurance3-wrap,
+#insurance3 button,
+#insurance3 span.date_label,
+#insurance3 .timeline_items li h3 span,
+#insurance3 input[type="submit"],
+#insurance3 input[type="reset"],
+#insurance3 input[type="button"],
+#insurance3 input[type="text"],
+#insurance3 input[type="password"],
+#insurance3 input[type="tel"],
+#insurance3 input[type="email"],
+#insurance3 textarea,
+#insurance3 select,
+#insurance3 .offer_li .title h3 {
+  font-family: "DM Sans", Arial, Tahoma, sans-serif;
+}
+#insurance3 #menu > ul > li > a,
+#insurance3 a.action_button,
+#insurance3 #overlay-menu ul li a {
+  font-family: "DM Sans", Arial, Tahoma, sans-serif;
+}
+#insurance3 #Subheader .title {
+  font-family: "DM Serif Display", Arial, Tahoma, sans-serif;
+}
+#insurance3 h1,
+#insurance3 h2,
+#insurance3 h3,
+#insurance3 h4,
+#insurance3 .text-logo #logo {
+  font-family: "DM Serif Display", Arial, Tahoma, sans-serif;
+}
+#insurance3 h5,
+#insurance3 h6 {
+  font-family: "DM Sans", Arial, Tahoma, sans-serif;
+}
+#insurance3 blockquote {
+  font-family: "DM Sans", Arial, Tahoma, sans-serif;
+}
+#insurance3 .chart_box .chart .num,
+#insurance3 .counter .desc_wrapper .number-wrapper,
+#insurance3 .how_it_works .image .number,
+#insurance3 .pricing-box .plan-header .price,
+#insurance3 .quick_fact .number-wrapper,
+#insurance3 .woocommerce .product div.entry-summary .price {
+  font-family: "DM Sans", Arial, Tahoma, sans-serif;
+}
+#insurance3-wrap {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+#insurance3 .big {
+  font-size: 19px;
+  line-height: 31px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+#insurance3 #menu > ul > li > a,
+#insurance3 a.action_button,
+#insurance3 #overlay-menu ul li a {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#insurance3 #overlay-menu ul li a {
+  line-height: 21px;
+}
+#insurance3 #Subheader .title {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+#insurance3 h1,
+#insurance3 .text-logo #logo {
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+#insurance3 h2 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+#insurance3 h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+#insurance3 h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+#insurance3 h5 {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+#insurance3 h6 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+#insurance3 #Intro .intro-title {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #insurance3-wrap {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  #insurance3 .big {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  #insurance3 #menu > ul > li > a,
+  #insurance3 a.action_button,
+  #insurance3 #overlay-menu ul li a {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  #insurance3 #overlay-menu ul li a {
+    line-height: 19.5px;
+    letter-spacing: 1px;
+  }
+  #insurance3 #Subheader .title {
+    font-size: 51px;
+    line-height: 60px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h1,
+  #insurance3 .text-logo #logo {
+    font-size: 41px;
+    line-height: 43px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h2 {
+    font-size: 51px;
+    line-height: 60px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h3 {
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h4 {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h5 {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h6 {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 3px;
+  }
+  #insurance3 #Intro .intro-title {
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: 0px;
+  }
+  #insurance3 blockquote {
+    font-size: 15px;
+  }
+  #insurance3 .chart_box .chart .num {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  #insurance3 .counter .desc_wrapper .number-wrapper {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  #insurance3 .counter .desc_wrapper .title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #insurance3 .faq .question .title {
+    font-size: 14px;
+  }
+  #insurance3 .fancy_heading .title {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  #insurance3 .offer .offer_li .desc_wrapper .title h3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  #insurance3 .offer_thumb_ul li.offer_thumb_li .desc_wrapper .title h3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  #insurance3 .pricing-box .plan-header h2 {
+    font-size: 27px;
+    line-height: 27px;
+  }
+  #insurance3 .pricing-box .plan-header .price > span {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  #insurance3 .pricing-box .plan-header .price sup.currency {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #insurance3 .pricing-box .plan-header .price sup.period {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #insurance3 .quick_fact .number {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  #insurance3 .trailer_box .desc h2 {
+    font-size: 27px;
+    line-height: 27px;
+  }
+  #insurance3 .widget > h3 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #insurance3-wrap {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0px;
+  }
+  #insurance3 .big {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0px;
+  }
+  #insurance3 #menu > ul > li > a,
+  #insurance3 a.action_button,
+  #insurance3 #overlay-menu ul li a {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  #insurance3 #overlay-menu ul li a {
+    line-height: 19.5px;
+    letter-spacing: 1px;
+  }
+  #insurance3 #Subheader .title {
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h1,
+  #insurance3 .text-logo #logo {
+    font-size: 36px;
+    line-height: 38px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h2 {
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h3 {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h4 {
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h5 {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h6 {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  #insurance3 #Intro .intro-title {
+    font-size: 53px;
+    line-height: 60px;
+    letter-spacing: 0px;
+  }
+  #insurance3 blockquote {
+    font-size: 14px;
+  }
+  #insurance3 .chart_box .chart .num {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  #insurance3 .counter .desc_wrapper .number-wrapper {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  #insurance3 .counter .desc_wrapper .title {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  #insurance3 .faq .question .title {
+    font-size: 13px;
+  }
+  #insurance3 .fancy_heading .title {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  #insurance3 .offer .offer_li .desc_wrapper .title h3 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  #insurance3 .offer_thumb_ul li.offer_thumb_li .desc_wrapper .title h3 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  #insurance3 .pricing-box .plan-header h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  #insurance3 .pricing-box .plan-header .price > span {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  #insurance3 .pricing-box .plan-header .price sup.currency {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  #insurance3 .pricing-box .plan-header .price sup.period {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  #insurance3 .quick_fact .number {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  #insurance3 .trailer_box .desc h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  #insurance3 .widget > h3 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #insurance3-wrap {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+  }
+  #insurance3 .big {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+  }
+  #insurance3 #menu > ul > li > a,
+  #insurance3 a.action_button,
+  #insurance3 #overlay-menu ul li a {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  #insurance3 #overlay-menu ul li a {
+    line-height: 19.5px;
+    letter-spacing: 1px;
+  }
+  #insurance3 #Subheader .title {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h1,
+  #insurance3 .text-logo #logo {
+    font-size: 29px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h2 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h3 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h4 {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h5 {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+  }
+  #insurance3 h6 {
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  #insurance3 #Intro .intro-title {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0px;
+  }
+  #insurance3 blockquote {
+    font-size: 13px;
+  }
+  #insurance3 .chart_box .chart .num {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  #insurance3 .counter .desc_wrapper .number-wrapper {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  #insurance3 .counter .desc_wrapper .title {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  #insurance3 .faq .question .title {
+    font-size: 13px;
+  }
+  #insurance3 .fancy_heading .title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #insurance3 .offer .offer_li .desc_wrapper .title h3 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  #insurance3 .offer_thumb_ul li.offer_thumb_li .desc_wrapper .title h3 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  #insurance3 .pricing-box .plan-header h2 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  #insurance3 .pricing-box .plan-header .price > span {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  #insurance3 .pricing-box .plan-header .price sup.currency {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #insurance3 .pricing-box .plan-header .price sup.period {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  #insurance3 .quick_fact .number {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  #insurance3 .trailer_box .desc h2 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  #insurance3 .widget > h3 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+#insurance3 .with_aside .sidebar.columns {
+  width: 23%;
+}
+#insurance3 .with_aside .sections_group {
+  width: 77%;
+}
+#insurance3 .aside_both .sidebar.columns {
+  width: 18%;
+}
+#insurance3 .aside_both .sidebar.sidebar-1 {
+  margin-left: -82%;
+}
+#insurance3 .aside_both .sections_group {
+  width: 64%;
+  margin-left: 18%;
+}
+@media only screen and (min-width: 1240px) {
+  #insurance3 .section_wrapper,
+  #insurance3 .container {
+    max-width: 1060px;
+  }
+  #insurance3 .layout-boxed.header-boxed #Top_bar.is-sticky {
+    max-width: 1080px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 .section_wrapper,
+  #insurance3 .container,
+  #insurance3 .four.columns .widget-area {
+    max-width: 480px !important;
+  }
+}
+#insurance3 #Top_bar #logo,
+#insurance3 .header-fixed #Top_bar #logo,
+#insurance3 .header-plain #Top_bar #logo,
+#insurance3 .header-transparent #Top_bar #logo {
+  height: 60px;
+  line-height: 60px;
+  padding: 30px 0;
+}
+#insurance3 .logo-overflow #Top_bar:not(.is-sticky) .logo {
+  height: 120px;
+}
+#insurance3 #Top_bar .menu > li > a {
+  padding: 30px 0;
+}
+#insurance3 .menu-highlight:not(.header-creative) #Top_bar .menu > li > a {
+  margin: 35px 0;
+}
+#insurance3
+  .header-plain:not(.menu-highlight)
+  #Top_bar
+  .menu
+  > li
+  > a
+  span:not(.description) {
+  line-height: 120px;
+}
+#insurance3 .header-fixed #Top_bar .menu > li > a {
+  padding: 45px 0;
+}
+#insurance3 #Top_bar .top_bar_right,
+#insurance3 .header-plain #Top_bar .top_bar_right {
+  height: 120px;
+}
+#insurance3 #Top_bar .top_bar_right_wrapper {
+  top: 40px;
+}
+#insurance3 .header-plain #Top_bar a#header_cart,
+#insurance3 .header-plain #Top_bar a#search_button,
+#insurance3 .header-plain #Top_bar .wpml-languages,
+#insurance3 .header-plain #Top_bar a.action_button {
+  line-height: 120px;
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 #Top_bar a.responsive-menu-toggle {
+    top: 40px;
+  }
+  #insurance3 .mobile-header-mini #Top_bar #logo {
+    height: 50px !important;
+    line-height: 50px !important;
+    margin: 5px 0;
+  }
+}
+#insurance3 input[type="date"],
+#insurance3 input[type="email"],
+#insurance3 input[type="number"],
+#insurance3 input[type="password"],
+#insurance3 input[type="search"],
+#insurance3 input[type="tel"],
+#insurance3 input[type="text"],
+#insurance3 input[type="url"],
+#insurance3 select,
+#insurance3 textarea,
+#insurance3 .woocommerce .quantity input.qty {
+  border-width: 0;
+  box-shadow: unset;
+  resize: none;
+}
+#insurance3 #Side_slide {
+  right: -250px;
+  width: 250px;
+}
+#insurance3 #Side_slide.left {
+  left: -250px;
+}
+#insurance3 .blog-teaser li .desc-wrapper .desc {
+  background-position-y: -1px;
+}
+#insurance3 form input.display-none {
+  display: none !important;
+}
+#insurance3 #Footer .widgets_wrapper {
+  padding: 80px 0 65px;
+}
+#insurance3 .insurance3-heading {
+  display: inline-block;
+  background-color: #fff;
+  padding: 6px 15px;
+  border-radius: 15px;
+}
+#insurance3 .insurance3-heading2 {
+  display: inline-block;
+  background-color: #e6eef8;
+  padding: 6px 15px;
+  border-radius: 15px;
+}
+#insurance3 .insurance3-heading3 {
+  display: inline-block;
+  background-color: #272b5c;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 15px;
+}
+#insurance3 .post h2.entry-title {
+  font-size: 140%;
+  line-height: 160%;
+}
+#insurance3 #Top_bar #logo img.logo-sticky,
+#insurance3 #Top_bar #logo img.logo-mobile,
+#insurance3 #Top_bar #logo img.logo-mobile-sticky {
+  display: none;
+}
+#insurance3 .section[data-parallax="3d"] {
+  overflow: hidden;
+}
+#insurance3 .section .mfn-parallax {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: none !important;
+}
+#insurance3 .wrap[data-parallax="3d"] {
+  overflow: hidden;
+  position: relative;
+}
+#insurance3 .wrap[data-parallax="3d"] > .mcb-wrap-inner,
+#insurance3 .wrap[data-parallax="3d"] > .column {
+  position: relative;
+}
+#insurance3 .section.center {
+  text-align: center;
+}
+#insurance3 .section.no-margin .column,
+#insurance3 .section.no-margin-v .column {
+  margin-bottom: 0;
+}
+#insurance3 .the_content_wrapper pre {
+  margin-bottom: 20px;
+}
+#insurance3 .column_button .button {
+  margin: 0 !important;
+  vertical-align: middle;
+}
+#insurance3 .button_align.align_center {
+  text-align: center;
+}
+#insurance3 .button_align.align_right {
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 .mobile-header-mini #Top_bar .container {
+    width: 100% !important;
+  }
+  #insurance3 .section_wrapper,
+  #insurance3 .container,
+  #insurance3 .four.columns .widget-area {
+    width: calc(100% - 67px) !important;
+  }
+  #insurance3 .section_wrapper .mcb-wrap,
+  #insurance3 .section_wrapper .column,
+  #insurance3 .container .column,
+  #insurance3 .sections_group,
+  #insurance3 .four.columns {
+    margin: 0;
+    width: 100% !important;
+    clear: both;
+  }
+  #insurance3 .mobile-sticky #Top_bar.is-sticky {
+    position: fixed !important;
+  }
+  #insurance3 #Top_bar #menu {
+    float: left;
+    position: static !important;
+    width: 100% !important;
+    padding-bottom: 20px;
+  }
+  #insurance3 #Top_bar .top_bar_left {
+    margin-top: 0px;
+  }
+}
+#insurance3 .the-icons.span3 {
+  float: left;
+  width: 25%;
+  line-height: 25px;
+  padding-bottom: 10px;
+  position: relative;
+}
+#insurance3 .the-icons.span3 [class^="icon-"] {
+  color: #3e3e3e;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+}
+#insurance3 .the-icons.span3 [class^="icon-"]:hover {
+  font-size: 50px;
+  background: #fff;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  width: 70px;
+  height: 50px;
+  border: 1px solid #eee;
+  top: -25px;
+  left: -32px;
+  z-index: 2;
+}
+#insurance3 .the-icons.span3 .i-name {
+  padding-left: 40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #insurance3 .the-icons.span3 {
+    width: 33.333%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #insurance3 .the-icons.span3 {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #insurance3 .the-icons.span3 {
+    width: 100%;
+  }
+}
+#insurance3 .ui-tabs .ui-tabs-nav li.ui-state-active a:after,
+#insurance3-wrap:not(.woocommerce-page) table tr:hover td,
+#insurance3-wrap:not(.woocommerce-page) table tr:hover td a {
+  color: #fff;
+}
+#insurance3 .accordion .question .answer,
+#insurance3 .ui-tabs .ui-tabs-panel,
+#insurance3 .ui-tabs .ui-tabs-nav li.ui-state-active a,
+#insurance3 .ui-tabs .ui-tabs-nav li.ui-tabs-selected:after,
+#insurance3 .ui-tabs .ui-tabs-nav li.ui-state-active:after,
+#insurance3 .tabs_vertical.ui-tabs .ui-tabs-nav li.ui-state-active a {
+  background-color: #fff;
+}
+#insurance3 .parallax-video .content_video iframe {
+  border: 35px solid #efefef;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#insurance3 .section-border-top {
+  border-top: 1px solid rgba0, 0, 0, 0.08px;
+}
+#insurance3 .notable_works .items_group {
+  background: #eaeae8;
+}
+#insurance3 .notable_works .items_group .fancy_heading h2 {
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+#insurance3 .hrmargin_0,
+#insurance3 p.hrmargin_0,
+#insurance3 hr.hrmargin_0,
+#insurance3 div.hrmargin_0,
+#insurance3 h2.hrmargin_0,
+#insurance3 h3.hrmargin_0,
+#insurance3 h4.hrmargin_0,
+#insurance3 h5.hrmargin_0,
+#insurance3 h6.hrmargin_0 {
+  margin: 0;
+}
+#insurance3 .hrmargin_b_60,
+#insurance3 p.hrmargin_b_60,
+#insurance3 hr.hrmargin_b_60,
+#insurance3 div.hrmargin_b_60,
+#insurance3 h2.hrmargin_b_60,
+#insurance3 h3.hrmargin_b_60,
+#insurance3 h4.hrmargin_b_60,
+#insurance3 h5.hrmargin_b_60,
+#insurance3 h6.hrmargin_b_60 {
+  margin: 0 auto 60px;
+}
+#insurance3 .hrmargin_b_30,
+#insurance3 p.hrmargin_b_30,
+#insurance3 hr.hrmargin_b_30,
+#insurance3 div.hrmargin_b_30,
+#insurance3 h2.hrmargin_b_30,
+#insurance3 h3.hrmargin_b_30,
+#insurance3 h4.hrmargin_b_30,
+#insurance3 h5.hrmargin_b_30,
+#insurance3 h6.hrmargin_b_30 {
+  margin-bottom: 30px;
+}
+#insurance3 .hrmargin_b_1,
+#insurance3 p.hrmargin_b_1,
+#insurance3 hr.hrmargin_b_1,
+#insurance3 div.hrmargin_b_1,
+#insurance3 h2.hrmargin_b_1,
+#insurance3 h3.hrmargin_b_1,
+#insurance3 h4.hrmargin_b_1,
+#insurance3 h5.hrmargin_b_1,
+#insurance3 h6.hrmargin_b_1 {
+  margin: 0 auto 1px;
+}
+#insurance3 .hrmargin_b_10,
+#insurance3 p.hrmargin_b_10,
+#insurance3 hr.hrmargin_b_10,
+#insurance3 div.hrmargin_b_10,
+#insurance3 h2.hrmargin_b_10,
+#insurance3 h3.hrmargin_b_10,
+#insurance3 h4.hrmargin_b_10,
+#insurance3 h5.hrmargin_b_10,
+#insurance3 h6.hrmargin_b_10 {
+  margin: 0 auto 10px;
+}
+#insurance3 .hrmargin_b_7,
+#insurance3 p.hrmargin_b_7,
+#insurance3 hr.hrmargin_b_7,
+#insurance3 div.hrmargin_b_7,
+#insurance3 h2.hrmargin_b_7,
+#insurance3 h3.hrmargin_b_7,
+#insurance3 h4.hrmargin_b_7,
+#insurance3 h5.hrmargin_b_7,
+#insurance3 h6.hrmargin_b_7 {
+  margin-bottom: 7px;
+}
+#insurance3 .hrmargin_b_40,
+#insurance3 p.hrmargin_b_40,
+#insurance3 hr.hrmargin_b_40,
+#insurance3 div.hrmargin_b_40,
+#insurance3 h2.hrmargin_b_40,
+#insurance3 h3.hrmargin_b_40,
+#insurance3 h4.hrmargin_b_40,
+#insurance3 h5.hrmargin_b_40,
+#insurance3 h6.hrmargin_b_40 {
+  margin: 0 auto 40px;
+}
+#insurance3 .hrmargin_b_40,
+#insurance3 p.hrmargin_b_20,
+#insurance3 hr.hrmargin_b_20,
+#insurance3 div.hrmargin_b_20,
+#insurance3 h2.hrmargin_b_20,
+#insurance3 h3.hrmargin_b_20,
+#insurance3 h4.hrmargin_b_20,
+#insurance3 h5.hrmargin_b_20,
+#insurance3 h6.hrmargin_b_20 {
+  margin: 0 auto 20px;
+}
+#insurance3 .hrmargin_b_25,
+#insurance3 p.hrmargin_b_25,
+#insurance3 hr.hrmargin_b_25,
+#insurance3 div.hrmargin_b_25,
+#insurance3 h2.hrmargin_b_25,
+#insurance3 h3.hrmargin_b_25,
+#insurance3 h4.hrmargin_b_25,
+#insurance3 h5.hrmargin_b_25,
+#insurance3 h6.hrmargin_b_25 {
+  margin: 0 auto 25px;
+}
+#insurance3 .hrmargin_b_5,
+#insurance3 p.hrmargin_b_5,
+#insurance3 hr.hrmargin_b_5,
+#insurance3 div.hrmargin_b_5,
+#insurance3 h2.hrmargin_b_5,
+#insurance3 h3.hrmargin_b_5,
+#insurance3 h4.hrmargin_b_5,
+#insurance3 h5.hrmargin_b_5,
+#insurance3 h6.hrmargin_b_5 {
+  margin-bottom: 5px;
+}
+#insurance3 .hrmargin_b_4,
+#insurance3 p.hrmargin_b_4,
+#insurance3 hr.hrmargin_b_4,
+#insurance3 div.hrmargin_b_4,
+#insurance3 h2.hrmargin_b_4,
+#insurance3 h3.hrmargin_b_4,
+#insurance3 h4.hrmargin_b_4,
+#insurance3 h5.hrmargin_b_4,
+#insurance3 h6.hrmargin_b_4 {
+  margin-bottom: 4px;
+}
+#insurance3 .hrmargin_l_26,
+#insurance3 p.hrmargin_l_26,
+#insurance3 hr.hrmargin_l_26,
+#insurance3 div.hrmargin_l_26,
+#insurance3 h2.hrmargin_l_26,
+#insurance3 h3.hrmargin_l_26,
+#insurance3 h4.hrmargin_l_26,
+#insurance3 h5.hrmargin_l_26,
+#insurance3 h6.hrmargin_l_26 {
+  margin-left: 26px;
+}
+#insurance3 .hrmargin_b_30,
+#insurance3 p.hrmargin_b_30,
+#insurance3 hr.hrmargin_b_30,
+#insurance3 div.hrmargin_b_30,
+#insurance3 h2.hrmargin_b_30,
+#insurance3 h3.hrmargin_b_30,
+#insurance3 h4.hrmargin_b_30,
+#insurance3 h5.hrmargin_b_30,
+#insurance3 h6.hrmargin_b_30 {
+  margin: 0 auto 30px;
+}
+#insurance3 .hrmargin_b_15,
+#insurance3 p.hrmargin_b_15,
+#insurance3 hr.hrmargin_b_15,
+#insurance3 div.hrmargin_b_15,
+#insurance3 h2.hrmargin_b_15,
+#insurance3 h3.hrmargin_b_15,
+#insurance3 h4.hrmargin_b_15,
+#insurance3 h5.hrmargin_b_15,
+#insurance3 h6.hrmargin_b_15 {
+  margin: 0 auto 15px;
+}
+#insurance3 .flv_disp_none,
+#insurance3 div.flv_disp_none,
+#insurance3 p.flv_disp_none {
+  display: none;
+}
+#insurance3 .flv_viz_hid,
+#insurance3 div.flv_viz_hid,
+#insurance3 p.flv_viz_hid {
+  visibility: hidden !important;
+}
+#insurance3 .flv_clear_both,
+#insurance3 div.flv_clear_both,
+#insurance3 p.flv_clear_both {
+  clear: both;
+}
+#insurance3 .sections_style_0,
+#insurance3 div.sections_style_0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#insurance3 .sections_style_1,
+#insurance3 div.sections_style_1 {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#insurance3 .sections_style_2,
+#insurance3 div.sections_style_2 {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+#insurance3 .sections_style_3,
+#insurance3 div.sections_style_3 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#insurance3 .sections_style_4,
+#insurance3 div.sections_style_4 {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+#insurance3 .sections_style_5,
+#insurance3 div.sections_style_5 {
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+#insurance3 .flv_span_12,
+#insurance3 span.flv_span_12,
+#insurance3 div.flv_span_12 {
+  padding-top: 12px;
+  display: block;
+}
+#insurance3 .flv_list,
+#insurance3 ul.flv_list {
+  float: left;
+  width: 46%;
+  margin-left: 4%;
+  list-style: square;
+  line-height: 30px;
+}
+#insurance3 .flv_list_1,
+#insurance3 li.flv_list_1 {
+  display: inline-block;
+  margin: 0 10px;
+}
+#insurance3 .flv_list_ul_46,
+#insurance3 ul.flv_list_ul_46 {
+  float: left;
+  width: 46%;
+  margin-left: 4%;
+  list-style: square;
+  line-height: 27px;
+}
+#insurance3 .flv_list_ul_10,
+#insurance3 ul.flv_list_ul_10 {
+  display: block;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#insurance3 i.flv_icon_color {
+  color: #afbcda;
+}
+#insurance3 ul.flv_line_height_32 {
+  line-height: 32px;
+}
+#insurance3 p.flv_align_right,
+#insurance3 div.flv_align_right {
+  text-align: right;
+}
+#insurance3 .flv_float_right,
+#insurance3 div.flv_float_right {
+  float: right;
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 #Top_bar #logo img.logo-main {
+    display: none;
+  }
+  #insurance3 #Top_bar #logo img.logo-mobile {
+    display: inline-block;
+  }
+  #insurance3 .logo-overflow #Top_bar .logo {
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #insurance3 {
+    /* Blog Teaser */
+  }
+  #insurance3 .blog-teaser li {
+    width: 100% !important;
+  }
+  #insurance3 .blog-teaser li:not(:first-child) {
+    margin-top: 10px;
+  }
+  #insurance3 .blog-teaser.margin-no li {
+    margin-top: 0;
+  }
+  #insurance3 .grid .post-item,
+  #insurance3 .masonry .post-item {
+    width: 98% !important;
+    margin: 0 1% 20px !important;
+  }
+}
+#insurance3 #contactform #submit,
+#insurance3 #newsletterform input {
+  width: 100%;
+}
